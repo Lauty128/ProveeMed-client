@@ -1,0 +1,1154 @@
+[
+    {
+       "cod_proveedor":1,
+       "nombre":"AADEE S.A.",
+       "web":"https://www.aadee.ar/",
+       "mail":"info@aadee.com.ar"
+    },
+    {
+       "cod_proveedor":2,
+       "nombre":"ACCESS MEDICAL SYSTEMS S.A.",
+       "web":"https://www.amslatam.com/",
+       "mail":"info@amslatam.com"
+    },
+    {
+       "cod_proveedor":3,
+       "nombre":"ACCME SRL",
+       "web":"https://accme.com.ar/",
+       "mail":"info@accme.com.ar"
+    },
+    {
+       "cod_proveedor":4,
+       "nombre":"ADANO JORGE ENRIQUE",
+       "web":"https://iluminaciontheus.com/",
+       "mail":"info@iluminaciontheus.com"
+    },
+    {
+       "cod_proveedor":5,
+       "nombre":"ADOX S.A.",
+       "web":"https://adox.com.ar/",
+       "mail":"info@adox.com.ar"
+    },
+    {
+       "cod_proveedor":6,
+       "nombre":"ADVANCED STERILIZATION PRODUCTS S.A.S.",
+       "web":"https://www.asp.com/",
+       "mail":"infolatam@asp.com"
+    },
+    {
+       "cod_proveedor":7,
+       "nombre":"ADVANTEK S.R.L.",
+       "web":"https://www.ati-medical.com/",
+       "mail":"info@ati-medical.com"
+    },
+    {
+       "cod_proveedor":8,
+       "nombre":"AGE MEDICAL SA",
+       "web":"https://agemedical.com.ar/",
+       "mail":"admin@agemedical.com.ar"
+    },
+    {
+       "cod_proveedor":9,
+       "nombre":"AGFA HEALTHCARE ARGENTINA S.A.",
+       "web":"https://www.agfa.com/",
+       "mail":"latamgraphics.ar@agfa.com"
+    },
+    {
+       "cod_proveedor":10,
+       "nombre":"AGIMED S.R.L.",
+       "web":"http://agimed.com.ar",
+       "mail":"info@agimed.com.ar"
+    },
+    {
+       "cod_proveedor":11,
+       "nombre":"AGS EQUIPAMIENTOS",
+       "web":"http://www.agssa.com/",
+       "mail":"info@agssa.com"
+    },
+    {
+       "cod_proveedor":12,
+       "nombre":"AIR LIQUIDE ARGENTINA S.A.",
+       "web":"http://ar.airliquide.com",
+       "mail":"contacto@ar.airliquide.com"
+    },
+    {
+       "cod_proveedor":13,
+       "nombre":"AKONIC S.A.",
+       "web":"https://www.akonic.com.ar/",
+       "mail":"akonic@akonic.com.ar"
+    },
+    {
+       "cod_proveedor":14,
+       "nombre":"ALBERTO J. MAZZONI S.A.",
+       "web":"https://www.facebook.com/albertojmazzoni/",
+       "mail":"info@albertomazzonisa.com"
+    },
+    {
+       "cod_proveedor":15,
+       "nombre":"ALER SM S.A.",
+       "web":"https://alersm.com/",
+       "mail":"INFO@ALERSM.COM"
+    },
+    {
+       "cod_proveedor":16,
+       "nombre":"ALISON ARGENTINA",
+       "web":"N/A",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":17,
+       "nombre":"ALLMEDIC SA",
+       "web":"http://allmedic.com.ar",
+       "mail":"info@allmedic.com.ar"
+    },
+    {
+       "cod_proveedor":18,
+       "nombre":"ALTAMORE MIGUEL ANGEL",
+       "web":"https://altamedic.com.ar/",
+       "mail":"altamedic@netcoop.com.ar"
+    },
+    {
+       "cod_proveedor":19,
+       "nombre":"American Lenox SA",
+       "web":"https://www.americanlenox.mitiendanube.com/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":20,
+       "nombre":"ANALYZER S.A.",
+       "web":"https://analyzer.com.ar/",
+       "mail":"biomedica@analyzer.com.ar"
+    },
+    {
+       "cod_proveedor":21,
+       "nombre":"ANTAGGER SRL",
+       "web":"https://tagger.com.ar/",
+       "mail":"ventas@tagger.com.ar"
+    },
+    {
+       "cod_proveedor":22,
+       "nombre":"ANTONIO MATACHANA SA SUCURSAL ARGENTINA",
+       "web":"https://www.matachana.com/",
+       "mail":"mail@matachana.com"
+    },
+    {
+       "cod_proveedor":23,
+       "nombre":"AP - BIOTECH S.R.L.",
+       "web":"https://apbiotech.com.ar/",
+       "mail":"info@apbiotech.com.ar"
+    },
+    {
+       "cod_proveedor":24,
+       "nombre":"APLICACIONES MEDICAS S.A.",
+       "web":"https://www.aplimed.com.ar/",
+       "mail":"info@aplimed.com.ar"
+    },
+    {
+       "cod_proveedor":25,
+       "nombre":"ARGENMEDICA S.A.C.I.F.I.A",
+       "web":"http://www.argenmedicasa.com.ar/",
+       "mail":"argenmedica@speedy.com.ar"
+    },
+    {
+       "cod_proveedor":26,
+       "nombre":"ARGENTINA MEDICAL PRODUCTS SRL.",
+       "web":"https://amp.com.ar/",
+       "mail":"corporate@amp.com.ar"
+    },
+    {
+       "cod_proveedor":27,
+       "nombre":"ARGIMED SRL.",
+       "web":"https://www.argimed.com.ar/",
+       "mail":"info@argimed.com.ar"
+    },
+    {
+       "cod_proveedor":28,
+       "nombre":"ARRAYA ARMANDO MARIO",
+       "web":"https://www.arrayamed.com/",
+       "mail":"consultas@arrayamed.com.ar"
+    },
+    {
+       "cod_proveedor":29,
+       "nombre":"ASTATEC S.A",
+       "web":"https://www.asta-tec.com/",
+       "mail":"info@asta-tec.com"
+    },
+    {
+       "cod_proveedor":30,
+       "nombre":"AUDITRON S.A.",
+       "web":"http://auditron.com.ar/es/",
+       "mail":"servicioalcliente@auditron.com.ar"
+    },
+    {
+       "cod_proveedor":31,
+       "nombre":"AVAN ELECTRONICA SRL",
+       "web":"http://www.avan.com.ar/",
+       "mail":"ventas@avan.com.ar"
+    },
+    {
+       "cod_proveedor":32,
+       "nombre":"B GATE SOCIEDAD ANONIMA",
+       "web":"https://www.b-gate.com.ar/",
+       "mail":"info@b-gate.com.ar"
+    },
+    {
+       "cod_proveedor":33,
+       "nombre":"BALPHIN MEDICALS S.A.",
+       "web":"https://balphin.com/",
+       "mail":"info@balphin.com"
+    },
+    {
+       "cod_proveedor":34,
+       "nombre":"BAYER S.A.",
+       "web":"https://www.conosur.bayer.com/es",
+       "mail":"info@bayer.com"
+    },
+    {
+       "cod_proveedor":35,
+       "nombre":"BERNARDO LEW E HIJOS SRL",
+       "web":"https://www.bernardolew.com.ar/",
+       "mail":"info@bernardolew.com.ar"
+    },
+    {
+       "cod_proveedor":36,
+       "nombre":"BETA MEDICAL SRL",
+       "web":"http://www.betamedical.com.ar",
+       "mail":"ventas@betamedical.com.ar"
+    },
+    {
+       "cod_proveedor":37,
+       "nombre":"BHAURAC S.A.",
+       "web":"https://bhaurac.com/",
+       "mail":"info@bhaurac.com"
+    },
+    {
+       "cod_proveedor":38,
+       "nombre":"BIO ANALITICA ARGENTINA S.A.",
+       "web":"https://bioanalitica.la/home/ar/",
+       "mail":"info@bioanalitica.la"
+    },
+    {
+       "cod_proveedor":39,
+       "nombre":"BIOINGENIER\u00cdA ALEMANA S.A.",
+       "web":"http://www.bio-ingenieria.com/",
+       "mail":"info@bio-ingenieria.com"
+    },
+    {
+       "cod_proveedor":40,
+       "nombre":"BIOMED MEDICAL DEVICES S.R.L.",
+       "web":"www.biomedmd.com",
+       "mail":"johanav@biomedmd.com "
+    },
+    {
+       "cod_proveedor":41,
+       "nombre":"BIOMEDICA SRL",
+       "web":"http://www.biomedica.com.ar/",
+       "mail":"info@biomedica.com.ar"
+    },
+    {
+       "cod_proveedor":42,
+       "nombre":"BIOMEDIX SAS",
+       "web":"www.biomedix.com.ar",
+       "mail":"hola@biomedix.com.ar"
+    },
+    {
+       "cod_proveedor":43,
+       "nombre":"BIONUCLEAR S.A.",
+       "web":"www.bionuclear.com.ar",
+       "mail":"bionuclear@bionuclearsa.com"
+    },
+    {
+       "cod_proveedor":44,
+       "nombre":"BIOTEK MEDICAL SRL",
+       "web":"http://biotekmedical.com.ar/",
+       "mail":"info@biotekmedical.com.ar"
+    },
+    {
+       "cod_proveedor":45,
+       "nombre":"BIOTEX SRL.",
+       "web":"https://www.biotex.com.ar/",
+       "mail":"ventas@biotex.com.ar"
+    },
+    {
+       "cod_proveedor":46,
+       "nombre":"BIOTRACOM SRL.",
+       "web":"https://biotracom.com/",
+       "mail":"administracion@biotracom.com"
+    },
+    {
+       "cod_proveedor":47,
+       "nombre":"BRUMED EQUIPAMIENTO HOSPITALARIO",
+       "web":"http://www.brumed.com.ar/",
+       "mail":"info@brumed.com.ar"
+    },
+    {
+       "cod_proveedor":48,
+       "nombre":"CANON MEDICAL SYSTEMS ARGENTINA",
+       "web":"https://ar.medical.canon/",
+       "mail":"info@ar.medical.canon"
+    },
+    {
+       "cod_proveedor":49,
+       "nombre":"CARDIOMEDIC S.A.",
+       "web":"N/A",
+       "mail":"info@cardiomedic.com.ar"
+    },
+    {
+       "cod_proveedor":50,
+       "nombre":"CARDIOSISTEMAS SRL",
+       "web":"http://www.cardiosistemas.com.ar/",
+       "mail":"ventas@cardiosistemas.com"
+    },
+    {
+       "cod_proveedor":51,
+       "nombre":"CARDIOTECNICA SRL.",
+       "web":"https://www.cardiotecnica.com/",
+       "mail":"info@cardiotecnica.com.ar"
+    },
+    {
+       "cod_proveedor":52,
+       "nombre":"CARL ZEISS VISION ARGENTINA S.A.",
+       "web":"https://www.zeiss.com.ar/",
+       "mail":"contacto@zeiss.com.ar"
+    },
+    {
+       "cod_proveedor":53,
+       "nombre":"CASA PI RO S.A.",
+       "web":"http://www.casapiro.com.ar/",
+       "mail":"Info@casapiro.com.ar"
+    },
+    {
+       "cod_proveedor":54,
+       "nombre":"CASTIGLIONE MARCELO OSCAR",
+       "web":"http://www.amrra.com/",
+       "mail":"amrra@amrra.com"
+    },
+    {
+       "cod_proveedor":55,
+       "nombre":"CEC ELECTR\u00d3NICA SRL",
+       "web":"www.cec.com.ar",
+       "mail":"icavalieri@cec.com.ar"
+    },
+    {
+       "cod_proveedor":56,
+       "nombre":"CECAR ESTERILIZACI\u00d3N SA",
+       "web":"https://www.cecar.com.ar/",
+       "mail":"info@cecar.com.ar"
+    },
+    {
+       "cod_proveedor":57,
+       "nombre":"CEGENS SA",
+       "web":"http://www.cegens.com/",
+       "mail":"ventas@cegens.com.ar"
+    },
+    {
+       "cod_proveedor":58,
+       "nombre":"CENTRO DE SERVICIOS HOSPITALARIOS S.A.",
+       "web":"https://cshsa.com.ar/",
+       "mail":"info@cshsa.com.ar"
+    },
+    {
+       "cod_proveedor":59,
+       "nombre":"CIR-MEDICA S.R.L.",
+       "web":"https://cirmedica.com/",
+       "mail":"ventas@cirmedica.com"
+    },
+    {
+       "cod_proveedor":60,
+       "nombre":"CIRUGIA J.F. SA",
+       "web":"http://cirugiajf.com.ar",
+       "mail":"contacto@cirugiajf.com.ar"
+    },
+    {
+       "cod_proveedor":61,
+       "nombre":"CLINICALAR S.A.",
+       "web":"https://clinicalar.com.ar/",
+       "mail":"info@clinicalar.com.ar"
+    },
+    {
+       "cod_proveedor":62,
+       "nombre":"COLDEN SRL EF",
+       "web":"http://www.colden.com.ar/",
+       "mail":"info@colden.com.ar"
+    },
+    {
+       "cod_proveedor":63,
+       "nombre":"CONEC CARE AR SRL",
+       "web":"https://oxigeno-argentina.com/",
+       "mail":"info@oxigeno-argentina.com"
+    },
+    {
+       "cod_proveedor":64,
+       "nombre":"CONMIL S.R.L.",
+       "web":"N/A",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":65,
+       "nombre":"CORPO MEDICA S.A.",
+       "web":"https://corpomedica.com.ar/",
+       "mail":"info@corpomedica.com.ar"
+    },
+    {
+       "cod_proveedor":66,
+       "nombre":"COSMOS ARGENTINA S.R.L.",
+       "web":"https://www.cosmos.com.ar/",
+       "mail":"ventas@cosmos.com.ar"
+    },
+    {
+       "cod_proveedor":67,
+       "nombre":"COVIDIEN ARGENTINA S.A.",
+       "web":"https://www.medtronic.com/covidien/es-ar",
+       "mail":"contacto@covidien.com"
+    },
+    {
+       "cod_proveedor":68,
+       "nombre":"DANIEL GONZALEZ SOCIEDAD ANONIMA",
+       "web":"https://www.dagonsa.com/",
+       "mail":"info@dagonsa.com"
+    },
+    {
+       "cod_proveedor":69,
+       "nombre":"DEAM SRL.",
+       "web":"https://deam.com.ar/",
+       "mail":"deam@deam.com.ar"
+    },
+    {
+       "cod_proveedor":70,
+       "nombre":"DEL GI\u00daDICE",
+       "web":"http://www.delgiudice.com.ar/",
+       "mail":"mh@delgiudice.com.ar"
+    },
+    {
+       "cod_proveedor":71,
+       "nombre":"DEL VECCHIO JUAN JOSE",
+       "web":"https://www.delvecchiojj.com.ar/",
+       "mail":"info@delv.com.ar"
+    },
+    {
+       "cod_proveedor":72,
+       "nombre":"DELEC CIENTIFICA ARGENTINA S.A.",
+       "web":"https://delec.com.ar/es/",
+       "mail":"contacto@delec.com.ar"
+    },
+    {
+       "cod_proveedor":73,
+       "nombre":"DENIMED S.A.",
+       "web":"https://www.denimed.com/",
+       "mail":"info@denimed.com"
+    },
+    {
+       "cod_proveedor":74,
+       "nombre":"DENTAL SAN JUSTO S.A.",
+       "web":"https://www.dentalsanjusto.com.ar/",
+       "mail":"info@dentalsanjusto.com.ar "
+    },
+    {
+       "cod_proveedor":75,
+       "nombre":"DIAGNOSTIC MEDIC SA",
+       "web":"https://www.diagnostic-medic.com.ar/",
+       "mail":"cotizaciones@diagnostic-medic.com.ar"
+    },
+    {
+       "cod_proveedor":76,
+       "nombre":"DIGIMED S.A.",
+       "web":"https://www.digimed.com.ar/",
+       "mail":"ventas@digimed.com.ar"
+    },
+    {
+       "cod_proveedor":77,
+       "nombre":"DIGITAL DINAMIC SISTEM",
+       "web":"https://minicomp.com.ar/",
+       "mail":"info@minicomp.com.ar"
+    },
+    {
+       "cod_proveedor":78,
+       "nombre":"DINIPA MEDICAL S.R.L.",
+       "web":"https://dinipamedical.com/",
+       "mail":"info@dinipamedical.com"
+    },
+    {
+       "cod_proveedor":79,
+       "nombre":"DIPA DENT SRL",
+       "web":"https://dipadent.com/",
+       "mail":"ventas@dipadent.com"
+    },
+    {
+       "cod_proveedor":80,
+       "nombre":"DISE\u00d1OS JERY S R L",
+       "web":"https://jery.com.ar/",
+       "mail":"info@jery.com.ar"
+    },
+    {
+       "cod_proveedor":81,
+       "nombre":"DRAGER MEDICAL ARGENTINA S.A.",
+       "web":"https://www.draeger.com/",
+       "mail":"contacto@draeger.com"
+    },
+    {
+       "cod_proveedor":82,
+       "nombre":"DRIPLAN SOCIEDAD ANONIMA",
+       "web":"https://www.driplan.com/",
+       "mail":"info@driplan.com"
+    },
+    {
+       "cod_proveedor":83,
+       "nombre":"EBISU S.A.",
+       "web":"http://www.ebisumed.com/",
+       "mail":"contacto@ebisumed.com"
+    },
+    {
+       "cod_proveedor":84,
+       "nombre":"ECLERIS SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+       "web":"https://ecleris.com/",
+       "mail":"ventas@ecleris.com"
+    },
+    {
+       "cod_proveedor":85,
+       "nombre":"EKOSUR SOCIEDAD ANONIMA",
+       "web":"https://eccosur.com/",
+       "mail":"info@eccosur.com"
+    },
+    {
+       "cod_proveedor":86,
+       "nombre":"EL PANTA S.A.",
+       "web":"http://www.elpanta.com.ar/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":87,
+       "nombre":"ELECTROMEDICINA MORALES S.R.L.",
+       "web":"https://www.electromedicinamorales.com",
+       "mail":"web@electromedicinamorales.com"
+    },
+    {
+       "cod_proveedor":88,
+       "nombre":"ELECTROMEDIK S.A.",
+       "web":"http://electromedik.com.ar/",
+       "mail":"info@electromedik.com.ar"
+    },
+    {
+       "cod_proveedor":89,
+       "nombre":"EMA SERVICIOS S.A.",
+       "web":"N/A",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":90,
+       "nombre":"EMSA S.A.",
+       "web":"https://webemsa.com.ar/",
+       "mail":"atencioncliente@emsa.com.ar"
+    },
+    {
+       "cod_proveedor":91,
+       "nombre":"EQUIPAMIENTOS DE LUCA S.A.",
+       "web":"https://equipamientosdeluca.com.ar/",
+       "mail":"info@equipamientosdeluca.com.ar"
+    },
+    {
+       "cod_proveedor":92,
+       "nombre":"EQUIPOS DENTALES S.A.",
+       "web":"http://www.equiposdentales.com/",
+       "mail":"info@equiposdentales.com"
+    },
+    {
+       "cod_proveedor":93,
+       "nombre":"ESAOTE LATINOAMERICA S.A.",
+       "web":"https://www.esaote.com/es-AR/global-network/esaote-latinoamerica",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":94,
+       "nombre":"ESSILOR ARGENTINA S A",
+       "web":"https://global.essilor.com/ar/",
+       "mail":"info@essilor.com.ar"
+    },
+    {
+       "cod_proveedor":95,
+       "nombre":"EURO SWISS S.A.",
+       "web":"https://www.euroswiss.com.ar/",
+       "mail":"consulta@euroswiss.com.ar"
+    },
+    {
+       "cod_proveedor":96,
+       "nombre":"EVERMED S.R.L.",
+       "web":"https://www.evermed.it/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":97,
+       "nombre":"EXO SA",
+       "web":"https://exo.com.ar/",
+       "mail":"exo@exo.com.ar"
+    },
+    {
+       "cod_proveedor":98,
+       "nombre":"FAETA SACIFI",
+       "web":"http://faeta.com.ar",
+       "mail":"faeta@faeta.com.ar"
+    },
+    {
+       "cod_proveedor":99,
+       "nombre":"FAMOX S.A.",
+       "web":"https://www.famox.com.ar/",
+       "mail":"info@famox.com.ar"
+    },
+    {
+       "cod_proveedor":100,
+       "nombre":"FCM SRL",
+       "web":"http://fcmsrl.com.ar/",
+       "mail":" ventas@fcmsrl.com.ar"
+    },
+    {
+       "cod_proveedor":101,
+       "nombre":"FEAS ELECTR\u00d3NICA",
+       "web":"https://www.feaselectronica.com.ar",
+       "mail":"ventas@feaselectronica.com.ar"
+    },
+    {
+       "cod_proveedor":102,
+       "nombre":"FEDIMED S.A.",
+       "web":"https://fedimed.com.ar/",
+       "mail":"info@fedimed.com.ar"
+    },
+    {
+       "cod_proveedor":103,
+       "nombre":"FI.ME. - FISICA MEDICA SRL.",
+       "web":"https://www.fime.com.ar/",
+       "mail":"fime.andres@gmail.com"
+    },
+    {
+       "cod_proveedor":104,
+       "nombre":"FILOBIOSIS S.A.",
+       "web":"http://www.filobiosis.com.ar/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":105,
+       "nombre":"FIORINI PAOLO",
+       "web":"http://www.fiorinipaolo.com.ar/",
+       "mail":"info@fiorinipaolo.com.ar"
+    },
+    {
+       "cod_proveedor":106,
+       "nombre":"FIORINO LUCIO MARCIO",
+       "web":"http://www.fiorinoelect.com.ar/",
+       "mail":"fiorino@sion.com"
+    },
+    {
+       "cod_proveedor":107,
+       "nombre":"FOTOMED S.A.",
+       "web":"https://fotomed.com.ar/",
+       "mail":"ventas@fotomed.com.ar"
+    },
+    {
+       "cod_proveedor":108,
+       "nombre":"FRESENIUS KABI S.A.",
+       "web":"https://www.fresenius-kabi.com/ar/",
+       "mail":"info.arg@fresenius-kabi.com"
+    },
+    {
+       "cod_proveedor":109,
+       "nombre":"FRESENIUS MEDICAL CARE ARGENTINA S.A.",
+       "web":"https://www.freseniusmedicalcare.com.ar/",
+       "mail":"fmcargentina@fmc-ag.com"
+    },
+    {
+       "cod_proveedor":110,
+       "nombre":"FRIDIMEX S.A.",
+       "web":"https://www.fridimex.com.ar",
+       "mail":"info@fridimex.com.ar"
+    },
+    {
+       "cod_proveedor":111,
+       "nombre":"G.E. LOMBARDOZZI S.A.C.I.F.I.",
+       "web":"https://www.gelombardozzi.com.ar",
+       "mail":"contacto@gelombardozzi.com.ar"
+    },
+    {
+       "cod_proveedor":112,
+       "nombre":"GAMMASYS SRL",
+       "web":"http://www.gammasys.com.ar",
+       "mail":"info@gammasys.com.ar"
+    },
+    {
+       "cod_proveedor":113,
+       "nombre":"GASTROTEX SRL",
+       "web":"www.gastrotex.com.ar",
+       "mail":"info@gastrotex.com.ar"
+    },
+    {
+       "cod_proveedor":114,
+       "nombre":"GE HEALTHCARE ARGENTINA S.A.",
+       "web":"https://latam.gehealthcare.com/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":115,
+       "nombre":"GEDOX S.A.",
+       "web":"www.gedoxmedical.com",
+       "mail":"contacto@gedoxmedical.com"
+    },
+    {
+       "cod_proveedor":116,
+       "nombre":"GEMED S.R.L.",
+       "web":"www.gemed.com.ar",
+       "mail":"info@gemed.com.ar"
+    },
+    {
+       "cod_proveedor":117,
+       "nombre":"GRABECO ARGENTINA SRL",
+       "web":"https://www.grabeco.tienda/",
+       "mail":"info@grabeco.com.ar"
+    },
+    {
+       "cod_proveedor":118,
+       "nombre":"GRAN BUENOS AIRES RAYOS X S.A.",
+       "web":"www.gba-rayosx.com.ar",
+       "mail":"gba@gba-rayosx.com.ar"
+    },
+    {
+       "cod_proveedor":119,
+       "nombre":"GRIENSU S.A.",
+       "web":"www.griensu.com",
+       "mail":"info@griensu.com"
+    },
+    {
+       "cod_proveedor":120,
+       "nombre":"GRIFOLS ARGENTINA S.A.",
+       "web":"https://www.grifols.com/es/argentina",
+       "mail":"info@grifols.com"
+    },
+    {
+       "cod_proveedor":121,
+       "nombre":"GRIMBERG DENTALES S.A.",
+       "web":"https://www.grimbergdentales.com/",
+       "mail":"contactenos@grimbergdentales.com"
+    },
+    {
+       "cod_proveedor":122,
+       "nombre":"GRUPO LINDE GAS ARGENTINA S.A.",
+       "web":"https://www.linde.ar/",
+       "mail":"lindeplc.ar@ccclinde.com "
+    },
+    {
+       "cod_proveedor":123,
+       "nombre":"GRUPO WARDEN SRL",
+       "web":"http://www.warden.com.ar",
+       "mail":"info@warden.com.ar"
+    },
+    {
+       "cod_proveedor":124,
+       "nombre":"HEMOVIDA SRL",
+       "web":"https://hemovida.com.ar/",
+       "mail":"info@hemovida.com.ar"
+    },
+    {
+       "cod_proveedor":125,
+       "nombre":"HYPERCAM SRL",
+       "web":"www.hypercam.com.ar",
+       "mail":"contacto@hypercam.com.ar"
+    },
+    {
+       "cod_proveedor":126,
+       "nombre":"IALLONARDO SERGIO ALEJANDRO",
+       "web":"N/A",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":127,
+       "nombre":"IAR AUDIOLOGIA SRL",
+       "web":"http://iarargentina.com.ar/web/",
+       "mail":"contacto@iarargentina.com.ar"
+    },
+    {
+       "cod_proveedor":128,
+       "nombre":"IMPORT VELEZ S.A.",
+       "web":"https://importvelez.com.ar/",
+       "mail":"comercial@importvelez.com.ar"
+    },
+    {
+       "cod_proveedor":129,
+       "nombre":"INDUSTRIAS HOGNER S.A.C.I.F.A.",
+       "web":"https://hogner.com/",
+       "mail":"industrias@hogner.com"
+    },
+    {
+       "cod_proveedor":130,
+       "nombre":"INFANT CARE S.A.",
+       "web":"http://www.infantcare.com.ar/",
+       "mail":"info@infantcare.com.ar"
+    },
+    {
+       "cod_proveedor":131,
+       "nombre":"ING. CARUSO SRL",
+       "web":"http://ingcaruso.com.ar/index.php",
+       "mail":"info@ingcaruso.com.ar"
+    },
+    {
+       "cod_proveedor":132,
+       "nombre":"INGEMED ",
+       "web":"http://www.ingemed.net",
+       "mail":"rafael@ingemed.net"
+    },
+    {
+       "cod_proveedor":133,
+       "nombre":"INHAR INGENIERIA HOSPITALARIA S.A.",
+       "web":"https://inhar.com.ar/",
+       "mail":"clientes@inhar.com.ar"
+    },
+    {
+       "cod_proveedor":134,
+       "nombre":"INSTALACIONES ODONTOLOGICAS INTEGRALES S.A.",
+       "web":"https://www.ioi-sa.com.ar/",
+       "mail":"ventas@ioi-sa.com.ar"
+    },
+    {
+       "cod_proveedor":135,
+       "nombre":"INSTRUEQUIPOS S.A.",
+       "web":"www.instruequipos.com.ar",
+       "mail":"INFO@INSTRUEQUIPOS.COM.AR"
+    },
+    {
+       "cod_proveedor":136,
+       "nombre":"INSTRUMEDICA SRL",
+       "web":"https://www.facebook.com/Instrumedica/",
+       "mail":"ventas@instrumedica.com"
+    },
+    {
+       "cod_proveedor":137,
+       "nombre":"INSTRUMENTAL BIOQUIMICO S.A.",
+       "web":"www.instrumental-b.com.ar",
+       "mail":"info@instrumental-b.com.ar"
+    },
+    {
+       "cod_proveedor":138,
+       "nombre":"INSTRUMENTAL QUIRURGICO FAICO S.A.I. y C.",
+       "web":"https://faico.com.ar/",
+       "mail":"https://faico.com.ar/"
+    },
+    {
+       "cod_proveedor":139,
+       "nombre":"INTEC SRL",
+       "web":"https://intecsrl.com.ar/",
+       "mail":"info@intecsrl.com.ar"
+    },
+    {
+       "cod_proveedor":140,
+       "nombre":"INTEMED S.A.",
+       "web":"www.intemed.com.ar",
+       "mail":"consultas@intemed.com.ar"
+    },
+    {
+       "cod_proveedor":141,
+       "nombre":"INVAP SOCIEDAD DE ESTADO",
+       "web":"https://www.invap.com.ar/",
+       "mail":"contacto@invap.com.ar"
+    },
+    {
+       "cod_proveedor":142,
+       "nombre":"INVENTU MED S.R.L.",
+       "web":"https://inventu.tech/inventu-med/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":143,
+       "nombre":"IRAOLA Y CIA. S.A.",
+       "web":"https://www.iraola.com/",
+       "mail":"Informes@iraola.com"
+    },
+    {
+       "cod_proveedor":144,
+       "nombre":"ISKOWITZ INSTRUMENTAL SRL.",
+       "web":"https://www.iisrl.com.ar/",
+       "mail":"info@iisrl.com.ar"
+    },
+    {
+       "cod_proveedor":145,
+       "nombre":"JAEJ S.A.",
+       "web":"https://jaej.com.ar/",
+       "mail":"info@jaej.com.ar"
+    },
+    {
+       "cod_proveedor":146,
+       "nombre":"JGO TEC S.A.S",
+       "web":"https://jgotechnology.com/",
+       "mail":"ventas@jgotechnology.com"
+    },
+    {
+       "cod_proveedor":147,
+       "nombre":"JOTATEC SRL",
+       "web":"https://www.jotatec.com/",
+       "mail":"info@jotatec.com"
+    },
+    {
+       "cod_proveedor":148,
+       "nombre":"JUAN NOVACEK S.A.",
+       "web":"https://novacekdental.com/",
+       "mail":"outlet@novacekdental.com.ar"
+    },
+    {
+       "cod_proveedor":149,
+       "nombre":"KARL STORZ ENDOSCOPIA ARGENTINA S.A.",
+       "web":"https://www.karlstorz.com/ar/es/index.htm?target=",
+       "mail":"info@karlstorz.com.ar"
+    },
+    {
+       "cod_proveedor":150,
+       "nombre":"KIFER MEDICAL SA",
+       "web":"N/A",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":151,
+       "nombre":"L H INSTRUMENTAL SRL.",
+       "web":"https://lhinstrumental.com.ar/",
+       "mail":"info@lhinstrumental.com.ar"
+    },
+    {
+       "cod_proveedor":152,
+       "nombre":"LABORATORIO DE APLICACIONES ELECTRONICAS SRL.",
+       "web":"https://www.lae-audiologia.com/",
+       "mail":"laesrl@laesrl.com.ar"
+    },
+    {
+       "cod_proveedor":153,
+       "nombre":"LABORATORIOS ALVEAR S.A.",
+       "web":"https://laboratoriosalvear.com/",
+       "mail":"info@laboratoriosalvear.com"
+    },
+    {
+       "cod_proveedor":154,
+       "nombre":"LABORATORIOS FARKIM SRL",
+       "web":"https://www.farkim.com.ar/index.html",
+       "mail":"info@farkim.com.ar"
+    },
+    {
+       "cod_proveedor":155,
+       "nombre":"LEISTUNG INGENIER\u00cdA SRL",
+       "web":"http://www.leistungargentina.com.ar",
+       "mail":"mauropaiaro@gmail.com"
+    },
+    {
+       "cod_proveedor":156,
+       "nombre":"LILIS S.A.",
+       "web":"https://www.lilis.com.ar/",
+       "mail":"info@lilis.com.ar"
+    },
+    {
+       "cod_proveedor":157,
+       "nombre":"L'MAGE SRL.",
+       "web":"http://limagesrl.com.ar/",
+       "mail":"info@limagesrl.com.ar"
+    },
+    {
+       "cod_proveedor":158,
+       "nombre":"LOBOV CIENT\u00cdFICA S.A.",
+       "web":"https://www.lobov.com.ar/",
+       "mail":"lobov@lobov.com.ar"
+    },
+    {
+       "cod_proveedor":159,
+       "nombre":"MACOR INSUMOS HOSPITALARIOS SRL",
+       "web":"https://macor.com.ar/",
+       "mail":"info@macor.com.ar"
+    },
+    {
+       "cod_proveedor":160,
+       "nombre":"MARK SRL",
+       "web":"https://marksrl.com.ar/",
+       "mail":"info@marksrl.com.ar"
+    },
+    {
+       "cod_proveedor":161,
+       "nombre":"MDV SRL",
+       "web":"https://mdvsrl.com.ar/",
+       "mail":"mdvsrl@gmail.com"
+    },
+    {
+       "cod_proveedor":162,
+       "nombre":"MECAMED",
+       "web":"https://www.mecamed.com/",
+       "mail":"ventas@mecamed.com"
+    },
+    {
+       "cod_proveedor":163,
+       "nombre":"MEDIBEL S.A.",
+       "web":"https://www.medibel.com.ar/",
+       "mail":"ventas@medibel.com.ar"
+    },
+    {
+       "cod_proveedor":164,
+       "nombre":"MEDITEA",
+       "web":"https://www.meditea.com/",
+       "mail":"info@meditea.com"
+    },
+    {
+       "cod_proveedor":165,
+       "nombre":"METAL MEDICA SRL",
+       "web":"https://metalmedica.com.ar/",
+       "mail":"info@metalmedica.com.ar"
+    },
+    {
+       "cod_proveedor":166,
+       "nombre":"MICROMEDICA \u00c9PSILON SRL",
+       "web":"https://www.micromedicaepsilon.com/",
+       "mail":"micromedicaepsilon@gmail.com"
+    },
+    {
+       "cod_proveedor":167,
+       "nombre":"MINDRAY ARGENTINA",
+       "web":"https://www.mindray.com/ar",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":168,
+       "nombre":"NARDI & HERRERO",
+       "web":"https://nardiherrero.com.ar/",
+       "mail":"commercial@nardiherrero.com.ar"
+    },
+    {
+       "cod_proveedor":169,
+       "nombre":"ND MEDICAL SRL",
+       "web":"https://ndmedical.com.ar",
+       "mail":"info@ndmedical.com.ar"
+    },
+    {
+       "cod_proveedor":170,
+       "nombre":"NEWTON MICROSCOPIOS",
+       "web":"https://newtonmicroscopios.com/",
+       "mail":"info@newtonmicroscopios.com"
+    },
+    {
+       "cod_proveedor":171,
+       "nombre":"NIPRO MEDICAL CORPORATION ARGENTINA",
+       "web":"http://niproargentina.com.ar/",
+       "mail":"NiproArg@nipromed.com "
+    },
+    {
+       "cod_proveedor":172,
+       "nombre":"OXIGENOTERAPIA NORTE SA",
+       "web":"http://www.oxigenoterapia.com.ar/",
+       "mail":"info@oxigenoterapia.com.ar"
+    },
+    {
+       "cod_proveedor":173,
+       "nombre":"OXY NET SA",
+       "web":"https://oxynet.com.ar/",
+       "mail":"contacto@oxynet.com.ar"
+    },
+    {
+       "cod_proveedor":174,
+       "nombre":"PAM ARGENTINA S.A.",
+       "web":"https://pamargentina.com.ar/",
+       "mail":"info@pamargentina.com.ar"
+    },
+    {
+       "cod_proveedor":175,
+       "nombre":"PETTINARI METAL SACIFIA",
+       "web":"http://pettinari.com.ar/",
+       "mail":"info@pettinari.com.ar"
+    },
+    {
+       "cod_proveedor":176,
+       "nombre":"PHILIPS ARGENTINA SA",
+       "web":"https://www.philips.com.ar/",
+       "mail":"N/A"
+    },
+    {
+       "cod_proveedor":177,
+       "nombre":"PHOTONIX SRL",
+       "web":"https://photonix.com.ar/",
+       "mail":"info@photonix.com.ar"
+    },
+    {
+       "cod_proveedor":178,
+       "nombre":"PRAXAIR ARGENTINA SRL",
+       "web":"https://ar.linkedin.com/company/praxair-argentina-s-r-l-",
+       "mail":"centro_atencion_cliente@praxair.com"
+    },
+    {
+       "cod_proveedor":179,
+       "nombre":"PRESVAC SRL",
+       "web":"https://www.presvac.net/",
+       "mail":"presvac@presvac.net"
+    },
+    {
+       "cod_proveedor":180,
+       "nombre":"PRODUCTOS ROCHE S..A.",
+       "web":"https://www.roche.com.ar/",
+       "mail":"argentina.informacion_medica@roche.com"
+    },
+    {
+       "cod_proveedor":181,
+       "nombre":"PROPATO HNOS S.A.",
+       "web":"https://propato.com.ar/",
+       "mail":"contacto@propato.com.ar"
+    },
+    {
+       "cod_proveedor":182,
+       "nombre":"PROVEEDUR\u00cdA M\u00c9DICA SRL",
+       "web":"https://proveeduriamedica.com.ar/",
+       "mail":"consultas@proveeduriamedica.com.ar"
+    },
+    {
+       "cod_proveedor":183,
+       "nombre":"QUIROMED SACIFI",
+       "web":"http://quiromed.com.ar",
+       "mail":"info@quiromed.com.ar"
+    },
+    {
+       "cod_proveedor":184,
+       "nombre":"R Y O VALL\u00c9",
+       "web":"http://www.valle.com.ar",
+       "mail":"mcerezuela@valle.com.ar"
+    },
+    {
+       "cod_proveedor":185,
+       "nombre":"RAYOS DINAN S.A.",
+       "web":"http://rayosxdinan.com.ar/",
+       "mail":"rxdinan@rayosxdinan.com.ar"
+    },
+    {
+       "cod_proveedor":186,
+       "nombre":"RAYOS PIMAX SRL",
+       "web":"www.rayospimax.com.ar",
+       "mail":"info@rayospimax.com.ar"
+    },
+    {
+       "cod_proveedor":187,
+       "nombre":"RB IMPLANTES QUIR\u00daRGICOS",
+       "web":"http://www.implantesrb.com.ar",
+       "mail":"javiercali@implantesrb.com.ar"
+    },
+    {
+       "cod_proveedor":188,
+       "nombre":"RN LEDESMA",
+       "web":"https://www.rnledesma.com.ar/",
+       "mail":"rnledesma@rnledesma.com.ar"
+    },
+    {
+       "cod_proveedor":189,
+       "nombre":"TECME S.A.",
+       "web":"https://tecmeglobal.com/pt/home/",
+       "mail":"info@tecme.com.ar"
+    },
+    {
+       "cod_proveedor":190,
+       "nombre":"TECNOIMAGEN S.A.",
+       "web":"https://www.tecnoimagen.com.ar/",
+       "mail":"info@tecnoimagen.com.ar"
+    },
+    {
+       "cod_proveedor":191,
+       "nombre":"WM ARGENTINA",
+       "web":"http://www.wmargentina.com.ar/",
+       "mail":"info@wmargentina.com.ar"
+    },
+    {
+       "cod_proveedor":192,
+       "nombre":"ZELIAN S.A.",
+       "web":"https://www.zelian.com.ar/",
+       "mail":"info@zelian.com.ar"
+    }
+ ]

@@ -1,0 +1,280 @@
+//----- COLORS
+$green-color : #9cab0b;
+$green-light-color : #c2cd5e;
+$blue-color:#044c84;
+$blue-light-color:#5780ab;
+$blue-secondary-color:#486498;
+
+//-------------------------- RESET -------------------------------
+html, 
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p,span,a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+//---------------------- MENU ------------------------------------
+.Menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    padding: .5em;
+    background-color: $blue-light-color;
+
+    &__image{
+        width: 100px;
+        border-radius: 10px;
+    }
+
+    &__a{
+        padding: 10px;
+        margin-right: 1em;
+        text-decoration: none;
+        color: #fff;
+        background-color: $blue-light-color;
+        font-size: 1.1em;
+        border-radius: 6px;
+        text-transform: uppercase;
+
+        transition: background-color .3s;
+        &:hover{
+            background-color: #044c84;
+        }
+    }
+
+}
+
+//-------------------------- DIVISOR -------------------------------
+//-------------------------- FILTER 
+.Filter{
+    padding-right: 1em;
+    position: sticky;
+    top: .2em;
+    height: fit-content;
+    
+    
+    &__div{
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    &__input{
+        border: 1px solid #959595;
+        font-size: 1.1em;
+        padding: .4em .2em;
+        outline: none;
+        width: 100%;
+    }
+    
+    &__label{
+        display: block;
+    }
+    
+    &__submit{
+        padding: .3em .5em;
+        font-size: 1.1em;
+        margin-top: 1em;
+        outline: none;
+        background-color: $green-color;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color .2s, color .2s;
+        
+        &:hover{
+            color: #000000;
+        }
+    }
+}
+
+
+.Divisor{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 1300px;
+    margin: auto;
+    padding: .3em;
+    margin-bottom: 3em;
+}
+
+
+.CardsContainer{
+    padding-left: 1em;
+    border-left: 1.5px solid rgb(66, 66, 66);
+    
+    &__pagination{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 1em;
+        margin-right: 1em;
+        
+        & > a{
+            font-size: 1.5em;
+            cursor: pointer;
+            
+            &:hover{
+                color: $blue-color;
+            }
+        }
+    }
+}
+@media screen and (max-width:750px){
+   .Divisor{
+       grid-template-columns: 1fr;
+   } 
+
+   .CardsContainer{
+    padding-left: 0;
+    border-left: 0;
+}
+}
+
+//-------------------------- CARD
+.Card{
+    border: 1px solid #b9b9b9;
+    margin: 1em 0;
+    padding: 17px 6px 2px 6px;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 82% 18%;
+    gap: 1em;
+    position: relative;
+    
+    &__h4{
+        margin: .5em .2em;
+        font-size: 1.15em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    &__id{
+        position: absolute;
+        top: 5px;
+        left: 8px;
+        font-weight: 700;
+        color: #6e6e6e;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    &__span{
+        font-size: 1.15em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    &__a{
+        color:#000;
+        font-size:1.4em;
+        transition: opacity .3s;
+        transition: color .35s;
+    }
+    &__a:hover{
+        color: $green-color;
+    }
+}
+
+.Card--equipment{
+    grid-template-columns: 60% 30% 10%;
+}
+.Card--provider a{
+    justify-self: center;
+}
+
+.CategoryCard{
+    background-color: #044c84;
+    width: fit-content;
+    padding: .4em;
+    & > a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+@media (max-width:780px){
+    // Aqui eliminamos la columna de categorias de las cards de equipos
+    .Card__span{ display: none }   
+    .Card--equipment{
+        grid-template-columns: 82% 18%;
+        
+        & a{
+            justify-self: center;
+        }
+    }
+    // Pero hay un detalle que es mas complejo, en la primer fila (osea el indice)
+    // El primer elemento Card--equipment y dentro de el su segundo span representa el indice "Categoria"
+    .Card--equipment:nth-child(1) span:nth-child(2){
+        display: none;
+    }
+}
+
+
+//-------------------------- INFORMATION -------------------------------
+.Information{
+    padding: 0 1em;
+
+    & > a {
+            text-decoration:none;
+            color: #fff;
+            background-color: $green-light-color;
+            padding: .5em;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: color .3s;
+    }
+
+    & > a:hover {
+        color: #000;
+    }
+}
+
+
+
+.ProviderPage{
+    padding: 1em 0em 0em 0em;
+
+    &__data span{
+      display: block;
+      margin: .5em 0em;
+     }
+
+    &__title{
+        font-weight: bold;
+        font-size: 1.5em;
+        border-bottom: 1px solid #737373;
+        padding-bottom: .3em;
+        margin-bottom: .8em;
+    }
+
+    &__data{
+        font-size: 1.3em;
+    }
+
+    &__categories{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+}

@@ -1,0 +1,2987 @@
+[
+    {
+       "cod_equipo":1,
+       "nombre":"Ec\u00f3grafos",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":2,
+       "nombre":"Densit\u00f3metros",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":3,
+       "nombre":"Equipos de RX fijos",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":4,
+       "nombre":"Equipos de RX rodantes",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":5,
+       "nombre":"Mam\u00f3grafos",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":6,
+       "nombre":"Tom\u00f3grafos",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":7,
+       "nombre":"Resonadores",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":8,
+       "nombre":"Detector DR",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":9,
+       "nombre":"Detector CR",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":10,
+       "nombre":"Arco en C",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":11,
+       "nombre":"Microscopios quir\u00fargicos",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":12,
+       "nombre":"Neuronavegador",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":13,
+       "nombre":"Coagul\u00f3metro",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":14,
+       "nombre":"Contador hematol\u00f3gico",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":15,
+       "nombre":"Analizador de iones",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":16,
+       "nombre":"Analizador de gases en sangre",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":17,
+       "nombre":"Osm\u00f3metros",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":18,
+       "nombre":"PET\/CT",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":19,
+       "nombre":"PACS",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":20,
+       "nombre":"Equipo para biopsia de mama",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":21,
+       "nombre":"Monitores de grado m\u00e9dico",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":22,
+       "nombre":"Equipo panor\u00e1mico dental",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":23,
+       "nombre":"Magnetoterapia",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":24,
+       "nombre":"Lupas",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":25,
+       "nombre":"L\u00e1mparas scial\u00edticas",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":26,
+       "nombre":"Vaporizadores",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":27,
+       "nombre":"Nebulizador",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":28,
+       "nombre":"Electroestimuladores",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":29,
+       "nombre":"Aspirador de secreciones",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":30,
+       "nombre":"Ox\u00edmetro de pulso",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":31,
+       "nombre":"Aspirador quir\u00fargico",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":32,
+       "nombre":"Equipos para est\u00e9tica",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":33,
+       "nombre":"L\u00e1mpara de examen",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":34,
+       "nombre":"Frontoluz",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":35,
+       "nombre":"Negatoscopios",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":36,
+       "nombre":"L\u00e1mparas dentales",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":37,
+       "nombre":"M\u00e1quina de anestesia",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":38,
+       "nombre":"Bomba de infusi\u00f3n enteral\/parenteral",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":39,
+       "nombre":"Bomba de infusi\u00f3n a jeringa",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":40,
+       "nombre":"Respiradores",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":41,
+       "nombre":"Sistema de rehabilitaci\u00f3n de pacientes",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":42,
+       "nombre":"Camilla de verticalizaci\u00f3n",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":43,
+       "nombre":"Esterilizador por per\u00f3xido de plasma",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":44,
+       "nombre":"Reprocesadora de endoscopios",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":45,
+       "nombre":"Electromi\u00f3grafo",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":46,
+       "nombre":"Electroencefal\u00f3grafos",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":47,
+       "nombre":"Polisomn\u00f3grafos",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":48,
+       "nombre":"Sistema de potenciales evocados",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":49,
+       "nombre":"Espir\u00f3metros",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":50,
+       "nombre":"Laboratorio pulmonar",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":51,
+       "nombre":"Holter MAPA",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":52,
+       "nombre":"Laringoscopios",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":53,
+       "nombre":"CPAP",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":54,
+       "nombre":"BPAP",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":55,
+       "nombre":"Impresoras m\u00e9dicas",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":56,
+       "nombre":"M\u00e1scaras de ventilaci\u00f3n",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":57,
+       "nombre":"Monitor Multiparam\u00e9trico",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":58,
+       "nombre":"Humidificador",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":59,
+       "nombre":"Concentrador de ox\u00edgeno",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":60,
+       "nombre":"C\u00e1mara espaciadora",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":61,
+       "nombre":"Ejercitadores pulmonares",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":62,
+       "nombre":"Pol\u00edgrafos",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":63,
+       "nombre":"Servocuna",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":64,
+       "nombre":"Incubadora",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":65,
+       "nombre":"Resucitador manual Neopuff",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":66,
+       "nombre":"Insuflador de CO2",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":67,
+       "nombre":"Esterilizador por formaldeh\u00eddo",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":68,
+       "nombre":"Autoclave a vapor",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":69,
+       "nombre":"Bombas de aspiraci\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":70,
+       "nombre":"Elevador de paciente",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":71,
+       "nombre":"Central de monitoreo",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":72,
+       "nombre":"Colchones antiescaras",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":73,
+       "nombre":"Camilla fija",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":74,
+       "nombre":"Camilla de ducha",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":75,
+       "nombre":"Endoc\u00e1maras",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":76,
+       "nombre":"Electrocardi\u00f3grafo",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":77,
+       "nombre":"Mesa de cirug\u00eda",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":78,
+       "nombre":"Holter ECG",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":79,
+       "nombre":"Cardiodesfibrilador",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":80,
+       "nombre":"Monitor de apnea del sue\u00f1o",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":81,
+       "nombre":"Cama de internaci\u00f3n el\u00e9ctrica",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":82,
+       "nombre":"Instrumental para endoscop\u00eda",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":83,
+       "nombre":"HIS",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":84,
+       "nombre":"L\u00e1mpara de fototerapia",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":85,
+       "nombre":"Resucitador manual",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":86,
+       "nombre":"Esterilizador por vapor de agua",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":87,
+       "nombre":"Bomba de irrigaci\u00f3n\/aspiraci\u00f3n",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":88,
+       "nombre":"Sistema de elevaci\u00f3n de pacientes",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":89,
+       "nombre":"Monitor fetal",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":90,
+       "nombre":"Desfibrilador Externo Autom\u00e1tico",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":91,
+       "nombre":"Unidad de suministro m\u00e9dico (paneles de gases)",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":92,
+       "nombre":"Cama de internaci\u00f3n el\u00e9ctrica ",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":93,
+       "nombre":"Camilla de transporte",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":94,
+       "nombre":"Artroscopios",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":95,
+       "nombre":"Laparoscopios",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":96,
+       "nombre":"Esterilizador por calor seco",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":97,
+       "nombre":"Gabinetes de revelado",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":98,
+       "nombre":"Delantales plomados",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":99,
+       "nombre":"Reguladores de presi\u00f3n de gases medicinales",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":100,
+       "nombre":"Caudal\u00edmetro de gases medicinales",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":101,
+       "nombre":"Analizador de di\u00f3xido de carbono",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":102,
+       "nombre":"Equipo criog\u00e9nico de transporte",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":103,
+       "nombre":"C\u00e1mara hiperb\u00e1rica",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":104,
+       "nombre":"Ventiladores",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":105,
+       "nombre":"Holter EEG",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":106,
+       "nombre":"Detector de otoemisiones ac\u00fasticas",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":107,
+       "nombre":"Tensi\u00f3metros",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":108,
+       "nombre":"Estetoscopios",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":109,
+       "nombre":"Otoscopios",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":110,
+       "nombre":"Mesa de examen",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":111,
+       "nombre":"Term\u00f3metros",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":112,
+       "nombre":"Silla de ruedas",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":113,
+       "nombre":"Silla de ruedas el\u00e9ctrica",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":114,
+       "nombre":"Cama de internaci\u00f3n manual",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":115,
+       "nombre":"L\u00e1ser quir\u00fargico",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":116,
+       "nombre":"Dermatoscopio",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":117,
+       "nombre":"Cunas",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":118,
+       "nombre":"Sill\u00f3n de partos",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":119,
+       "nombre":"Carro de curaciones",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":120,
+       "nombre":"Carro para equipos",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":121,
+       "nombre":"Mesa de comer",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":122,
+       "nombre":"Portasueros",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":123,
+       "nombre":"Instrumental quir\u00fargico",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":124,
+       "nombre":"Analizador qu\u00edmico de Point of Care",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":125,
+       "nombre":"Sillas de ruedas especiales",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":126,
+       "nombre":"Esterilizador por \u00d3xido de Etileno",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":127,
+       "nombre":"Lavadoras termodesinfectadoras",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":128,
+       "nombre":"Selladora de bolsas",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":129,
+       "nombre":"Cabinas de termodesinfecci\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":130,
+       "nombre":"Generador de vapor",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":131,
+       "nombre":"Autoanalizador de qu\u00edmica cl\u00ednica",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":132,
+       "nombre":"Autoanalizador de hematolog\u00eda",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":133,
+       "nombre":"Analizador de hemostasia",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":134,
+       "nombre":"Analizador de orina",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":135,
+       "nombre":"Sistema de biolog\u00eda molecular",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":136,
+       "nombre":"Monitor de oximetr\u00eda cerebral",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":137,
+       "nombre":"Doppler transcraneal",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":138,
+       "nombre":"Arteri\u00f3grafo",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":139,
+       "nombre":"Torre de endoscop\u00eda",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":140,
+       "nombre":"Fuentes de luz",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":141,
+       "nombre":"Procesador de im\u00e1genes",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":142,
+       "nombre":"Instrumental para laparoscop\u00eda",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":143,
+       "nombre":"Bomba de alimentaci\u00f3n enteral",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":144,
+       "nombre":"Bomba de alimentaci\u00f3n parenteral",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":145,
+       "nombre":"Lavadora de instrumental quir\u00fargico",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":146,
+       "nombre":"Lavadora de mamaderas",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":147,
+       "nombre":"Piso sensorial",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":148,
+       "nombre":"Sistema de compresi\u00f3n secuencial",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":149,
+       "nombre":"Equipo de rehabilitaci\u00f3n",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":150,
+       "nombre":"Biomec\u00e1nica de la marcha",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":151,
+       "nombre":"Bipedestadores",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":152,
+       "nombre":"Generador de ozono",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":153,
+       "nombre":"Tom\u00f3grafo de coherencia \u00f3ptica",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":154,
+       "nombre":"Camp\u00edmetro",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":155,
+       "nombre":"C\u00e1mara retinal",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":156,
+       "nombre":"L\u00e1mpara de hendidura",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":157,
+       "nombre":"Top\u00f3grafos",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":158,
+       "nombre":"Ton\u00f3metros",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":159,
+       "nombre":"Autorrefract\u00f3metro",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":160,
+       "nombre":"Facoemulsificador",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":161,
+       "nombre":"Morcelador",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":162,
+       "nombre":"Impedanci\u00f3metro auditivo",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":163,
+       "nombre":"Audi\u00f3metro",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":164,
+       "nombre":"Autoanalizador hematol\u00f3gico",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":165,
+       "nombre":"Analizador de biomarcadores",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":166,
+       "nombre":"Compresor de aire",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":167,
+       "nombre":"Bomba de vac\u00edo",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":168,
+       "nombre":"Planta de producci\u00f3n de ox\u00edgeno PSA",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":169,
+       "nombre":"Tanque acumulador",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":170,
+       "nombre":"Secadora de aire",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":171,
+       "nombre":"Colectores de alta presi\u00f3n",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":172,
+       "nombre":"Bomba de infusi\u00f3n volum\u00e9trica",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":173,
+       "nombre":"Electrobistur\u00ed",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":174,
+       "nombre":"Balanzas",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":175,
+       "nombre":"Estufas de esterilizaci\u00f3n",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":176,
+       "nombre":"Videolaringoscopio",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":177,
+       "nombre":"Colposcopio",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":178,
+       "nombre":"Detector fetal",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":179,
+       "nombre":"Tabla espinal",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":180,
+       "nombre":"Maniqu\u00ed de entrenamiento",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":181,
+       "nombre":"Camilla ginecol\u00f3gica",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":182,
+       "nombre":"Carro de anestesia",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":183,
+       "nombre":"Carro de paro",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":184,
+       "nombre":"Carro de medicamentos",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":185,
+       "nombre":"Medios de contraste",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":186,
+       "nombre":"Bomba de inyecci\u00f3n de medio de contraste",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":187,
+       "nombre":"Sistema inyector de infusi\u00f3n para PET",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":188,
+       "nombre":"Autoanalizador de inmunoensayos",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":189,
+       "nombre":"Analizador de coagulaci\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":190,
+       "nombre":"Lector y lavador de microplacas",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":191,
+       "nombre":"Analizador de Elisa",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":192,
+       "nombre":"Cama pedi\u00e1trica",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":193,
+       "nombre":"Sill\u00f3n para hemodi\u00e1lisis",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":194,
+       "nombre":"Fluoroscopios",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":195,
+       "nombre":"Blender de gases",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":196,
+       "nombre":"Sill\u00f3n odontol\u00f3gico",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":197,
+       "nombre":"Endoscopios",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":198,
+       "nombre":"Ultrasonido quir\u00fargico",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":199,
+       "nombre":"Micropipetas",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":200,
+       "nombre":"Centr\u00edfugas",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":201,
+       "nombre":"Micr\u00f3tomo",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":202,
+       "nombre":"Sistema de ablaci\u00f3n quir\u00fargica",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":203,
+       "nombre":"Oftalmoscopios",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":204,
+       "nombre":"Litotriptor",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":205,
+       "nombre":"Heladera para medicamentos",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":206,
+       "nombre":"Heladera para banco de sangre",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":207,
+       "nombre":"Microscopios",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":208,
+       "nombre":"Refrigeradores para bolsas de sangre",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":209,
+       "nombre":"Ultrafreezer",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":210,
+       "nombre":"Criostatos",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":211,
+       "nombre":"Equipo de alto flujo",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":212,
+       "nombre":"Angi\u00f3grafo",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":213,
+       "nombre":"Agitadores",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":214,
+       "nombre":"Balanzas anal\u00edticas",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":215,
+       "nombre":"Capn\u00f3grafo",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":216,
+       "nombre":"Electrocoagulador",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":217,
+       "nombre":"Erg\u00f3metros de cinta",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":218,
+       "nombre":"Halos cef\u00e1licos",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":219,
+       "nombre":"Estufas",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":220,
+       "nombre":"Electroporador",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":221,
+       "nombre":"Bombas de circulaci\u00f3n extracorp\u00f3rea",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":222,
+       "nombre":"Torre de laparoscop\u00eda",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":223,
+       "nombre":"Equipo de hemodinamia",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":224,
+       "nombre":"Tubos de RX",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":225,
+       "nombre":"Sistema de hipotermia",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":226,
+       "nombre":"Sistema de hipertermia",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":227,
+       "nombre":"Cicloerg\u00f3metro",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":228,
+       "nombre":"Videocolposcopio",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":229,
+       "nombre":"Sill\u00f3n ginecol\u00f3gico",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":230,
+       "nombre":"Marcapasos externo",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":231,
+       "nombre":"Camilla para tilt test",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":232,
+       "nombre":"Querat\u00f3metros",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":233,
+       "nombre":"For\u00f3ptero ",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":234,
+       "nombre":"C\u00e1mara de fondo",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":235,
+       "nombre":"Aberrador de frente de onda",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":236,
+       "nombre":"Equipo para graduaci\u00f3n visual",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":237,
+       "nombre":"Monitor gemelar",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":238,
+       "nombre":"Sistema de normotermia",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":239,
+       "nombre":"Sistema de monitoreo intraquir\u00fargico de EEG",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":240,
+       "nombre":"L\u00e1ser de depilaci\u00f3n",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":241,
+       "nombre":"HIFU 3D",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":242,
+       "nombre":"Ondas de choque",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":243,
+       "nombre":"Radiofrecuencia fraccionada",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":244,
+       "nombre":"Presoterapia secuencial",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":245,
+       "nombre":"Incubadora de transporte",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":246,
+       "nombre":"Proyector de Optotipos",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":247,
+       "nombre":"lens\u00f3metros",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":248,
+       "nombre":"Biseladora",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":249,
+       "nombre":"Centrador",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":250,
+       "nombre":"Trazadora",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":251,
+       "nombre":"Microscopio especular",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":252,
+       "nombre":"L\u00e1ser para oftalmolog\u00eda",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":253,
+       "nombre":"Bi\u00f3metro \u00f3ptico",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":254,
+       "nombre":"Unidad oftalmol\u00f3gica",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":255,
+       "nombre":"Microper\u00edmetro",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":256,
+       "nombre":"Gonioscopio",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":257,
+       "nombre":"Fotocoagulador",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":258,
+       "nombre":"Gastroscopios",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":259,
+       "nombre":"Colonoscopio",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":260,
+       "nombre":"Microscopios para ORL",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":261,
+       "nombre":"Microscopios para Oftalmolog\u00eda",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":262,
+       "nombre":"Scooter de movilidad",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":263,
+       "nombre":"Neuroestimuladores",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":264,
+       "nombre":"Sistema de estereotaxia",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":265,
+       "nombre":"Equipo de radiofrecuencia para dolor",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":266,
+       "nombre":"C\u00e1psula endosc\u00f3pica",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":267,
+       "nombre":"Electrocoagulador por plasma de arg\u00f3n",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":268,
+       "nombre":"Bomba de infusi\u00f3n intratecal",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":269,
+       "nombre":"Sellador de vasos",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":270,
+       "nombre":"Camilla para resonador",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":271,
+       "nombre":"Camilla para ambulancia",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":272,
+       "nombre":"Camilla especial",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":273,
+       "nombre":"Sillas de ruedas no magn\u00e9ticas",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":274,
+       "nombre":"Monitor cerebral BIS",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":275,
+       "nombre":"Histeroscopios",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":276,
+       "nombre":"Bomba de aspiraci\u00f3n\/irrigaci\u00f3n para laparosco\u00eda",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":277,
+       "nombre":"Sistema de calentamiento",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":278,
+       "nombre":"Digitalizadores",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":279,
+       "nombre":"Anteojos plomados",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":280,
+       "nombre":"Lavadora ultras\u00f3nica",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":281,
+       "nombre":"Estufas para despirogenado",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":282,
+       "nombre":"Estufas de secado",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":283,
+       "nombre":"Camilla de shockroom",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":284,
+       "nombre":"Mobiliario",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":285,
+       "nombre":"Cama de primera infancia",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":286,
+       "nombre":"Andadores",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":287,
+       "nombre":"Biombos",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":288,
+       "nombre":"Sistema de cirug\u00eda rob\u00f3tica",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":289,
+       "nombre":"Cyberknife",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":290,
+       "nombre":"Equipo de radioterapia",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":291,
+       "nombre":"Tomoterapia",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":292,
+       "nombre":"Equipo de radiocirug\u00eda",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":293,
+       "nombre":"Tom\u00f3grafo m\u00f3vil",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":294,
+       "nombre":"Visualizador de venas",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":295,
+       "nombre":"Hospitales m\u00f3viles",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":296,
+       "nombre":"Autoclave dental",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":297,
+       "nombre":"Sill\u00f3n multifunci\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":298,
+       "nombre":"Carro de transporte",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":299,
+       "nombre":"Equipo de RX dental",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":300,
+       "nombre":"Cefal\u00f3metro",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":301,
+       "nombre":"L\u00e1mpara de fotocurado",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":302,
+       "nombre":"Biombo plomado",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":303,
+       "nombre":"Mochila de ox\u00edgeno",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":304,
+       "nombre":"Aud\u00edfonos",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":305,
+       "nombre":"Cama ortop\u00e9dica",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":306,
+       "nombre":"Muletas",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":307,
+       "nombre":"Bastones",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":308,
+       "nombre":"L\u00e1ser odontol\u00f3gico",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":309,
+       "nombre":"Equipo de terapia de luz pulsada",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":310,
+       "nombre":"Equipo de terapia por ultrasonido",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":311,
+       "nombre":"Cavitador",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":312,
+       "nombre":"Micromotor odontol\u00f3gico",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":313,
+       "nombre":"Bomba de aspiraci\u00f3n",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":314,
+       "nombre":"Radiovisi\u00f3grafos",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":315,
+       "nombre":"Termoformadoras",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":316,
+       "nombre":"Columna de techo para gases y electricidad en cirug\u00eda",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":317,
+       "nombre":"Cal sodada",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":318,
+       "nombre":"Filtros respiratorios",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":319,
+       "nombre":"Bilirrubin\u00f3metros",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":320,
+       "nombre":"Calentador humidificador",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":321,
+       "nombre":"Humidificador de alto flujo",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":322,
+       "nombre":"Bomba de extracci\u00f3n de leche",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":323,
+       "nombre":"Fluj\u00f3metros",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":324,
+       "nombre":"Simulador paciente",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":325,
+       "nombre":"Analizadores de equipos m\u00e9dicos",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":326,
+       "nombre":"TENS",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":327,
+       "nombre":"Electroterapia",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":328,
+       "nombre":"Camilla de tracci\u00f3n",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":329,
+       "nombre":"Videonistagm\u00f3grafo",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":330,
+       "nombre":"Casco para CPAP",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":331,
+       "nombre":"Sinuscopios",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":332,
+       "nombre":"Ultracavitadores",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":333,
+       "nombre":"Dermoabrasi\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":334,
+       "nombre":"Sistema de ergometr\u00eda",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":335,
+       "nombre":"Radiofrecuencia",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":336,
+       "nombre":"Iontoforesis",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":337,
+       "nombre":"Criolip\u00f3lisis",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":338,
+       "nombre":"Manta t\u00e9rmica",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":339,
+       "nombre":"Unidades de aire caliente",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":340,
+       "nombre":"Circuitos respiratorios",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":341,
+       "nombre":"Homogeinizador",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":342,
+       "nombre":"Estufa de cultivo",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":343,
+       "nombre":"Estufa de esterilizaci\u00f3n",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":344,
+       "nombre":"Cuba de electroforesis",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":345,
+       "nombre":"Espectrofot\u00f3metros",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":346,
+       "nombre":"Ba\u00f1os termost\u00e1ticos",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":347,
+       "nombre":"Contador celular",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":348,
+       "nombre":"Impresoras de c\u00f3digo de barras",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":349,
+       "nombre":"Lectores de c\u00f3digos de barras",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":350,
+       "nombre":"Equipos de RX dental",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":351,
+       "nombre":"Paqu\u00edmetro",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":352,
+       "nombre":"Descartadores de agujas",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":353,
+       "nombre":"M\u00e1quina de di\u00e1lisis",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":354,
+       "nombre":"Unidad de diagn\u00f3stico m\u00f3vil",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":355,
+       "nombre":"Mesa de autopsia (necropsia)",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":356,
+       "nombre":"C\u00e1mara mortuoria",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":357,
+       "nombre":"Lavador de chatas",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":358,
+       "nombre":"Llamador de enfermer\u00eda",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":359,
+       "nombre":"Frasco humidificador",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":360,
+       "nombre":"Coldhead MR",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":361,
+       "nombre":"Carro de usos m\u00faltiples",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":362,
+       "nombre":"Equipamiento de simulaci\u00f3n",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":363,
+       "nombre":"Cables multimarcas",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":364,
+       "nombre":"Unidad de calentamiento",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":365,
+       "nombre":"Generador de radiofrecuencia",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":366,
+       "nombre":"Marcapasos implantable",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":367,
+       "nombre":"Interpupil\u00f3metro",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":368,
+       "nombre":"Unidad de refracci\u00f3n",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":369,
+       "nombre":"Collares cervicales",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":370,
+       "nombre":"Tubos de ox\u00edgeno",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":371,
+       "nombre":"Soporte para tubos",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":372,
+       "nombre":"V\u00e1lvula de doble man\u00f3metro",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":373,
+       "nombre":"Barreras sanitarias",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":374,
+       "nombre":"Humidificador calefaccionado",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":375,
+       "nombre":"Pantoscopio",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":376,
+       "nombre":"Sierra cortayesos",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":377,
+       "nombre":"Camilla valija",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":378,
+       "nombre":"Mesa de curaciones",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":379,
+       "nombre":"Mesa de instrumental",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":380,
+       "nombre":"Escalera de pelda\u00f1os",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":381,
+       "nombre":"Alt\u00edmetro",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":382,
+       "nombre":"Pedi\u00f3metro",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":383,
+       "nombre":"Lupas diagn\u00f3sticas iluminadas",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":384,
+       "nombre":"Equipo de criocirug\u00eda",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":385,
+       "nombre":"Equipo de af\u00e9resis",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":386,
+       "nombre":"Sistema de autotransfusi\u00f3n",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":387,
+       "nombre":"Hemodializadores",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":388,
+       "nombre":"Lupas binoculares",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":389,
+       "nombre":"Cauterizador",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":390,
+       "nombre":"Derm\u00e1tomos",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":391,
+       "nombre":"Activ\u00edmetros",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":392,
+       "nombre":"Contador Geiger",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":393,
+       "nombre":"Spect",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":394,
+       "nombre":"PET",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":395,
+       "nombre":"C\u00e1mara Gamma",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":396,
+       "nombre":"SPECT\/CT",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":397,
+       "nombre":"Resectoscopio",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":398,
+       "nombre":"PET\/MR",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":399,
+       "nombre":"Cinta de correr",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":400,
+       "nombre":"Doppler fetal",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":401,
+       "nombre":"Emblistadoras",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":402,
+       "nombre":"Envasadoras autom\u00e1ticas",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":403,
+       "nombre":"Llenadoras de suero",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":404,
+       "nombre":"Dispensador autom\u00e1tico de medicamentos",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":405,
+       "nombre":"Cabina de bioseguridad",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":406,
+       "nombre":"Sistema rob\u00f3tico de preparaci\u00f3n de mezclas",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":407,
+       "nombre":"Hemosuctor",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":408,
+       "nombre":"Turbinas y accesorios para sillones odontol\u00f3gicos",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":409,
+       "nombre":"Localizador de \u00e1pice",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":410,
+       "nombre":"Esc\u00e1ner intraoral",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":411,
+       "nombre":"Gases medicinales",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":412,
+       "nombre":"\u00d3pticas",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":413,
+       "nombre":"Luz led",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":414,
+       "nombre":"Equipo de screening auditivo port\u00e1til",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":415,
+       "nombre":"Destiladores de agua",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":416,
+       "nombre":"Ozonizadores",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":417,
+       "nombre":"Equipos de RF para rehabilitaci\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":418,
+       "nombre":"Loteador con sellador",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":419,
+       "nombre":"Sistema Kanban",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":420,
+       "nombre":"Unidad odontol\u00f3gica portable",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":421,
+       "nombre":"C\u00e1mara intraoral",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":422,
+       "nombre":"Termodesinfectadora",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":423,
+       "nombre":"Plantas de \u00f3smosis inversa",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":424,
+       "nombre":"Instrumental para oftalmolog\u00eda",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":425,
+       "nombre":"Instrumental para ORL",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":426,
+       "nombre":"Instrumental para traumatolog\u00eda",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":427,
+       "nombre":"Mesa de cateterismo",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":428,
+       "nombre":"L\u00e1ser para urolog\u00eda",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":429,
+       "nombre":"Acelerador lineal",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":430,
+       "nombre":"Sistemas de braquiterapia",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":431,
+       "nombre":"Equipos de radioterapia",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":432,
+       "nombre":"Material termopl\u00e1stico para radioterapia",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":433,
+       "nombre":"Software de planificaci\u00f3n de radioterapia",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":434,
+       "nombre":"Sistema de radiocirug\u00eda",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":435,
+       "nombre":"Iriscopio",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":436,
+       "nombre":"Mesas de luz",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":437,
+       "nombre":"Sistema de identificaci\u00f3n de pacientes",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":438,
+       "nombre":"Retinoscopio",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":439,
+       "nombre":"Cama de pronaci\u00f3n",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":440,
+       "nombre":"Sillas de transferencia de pacientes",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":441,
+       "nombre":"Instrumental para odontolog\u00eda",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":442,
+       "nombre":"Instrumental para artroscop\u00eda",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":443,
+       "nombre":"Instrumental para Urolog\u00eda",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":444,
+       "nombre":"Instrumental para ginecolog\u00eda",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":445,
+       "nombre":"Fibroscopios",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":446,
+       "nombre":"Broncoscopios",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":447,
+       "nombre":"Coledocoscopio",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":448,
+       "nombre":"Cistoureteroscopios",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":449,
+       "nombre":"Monitores de visualizaci\u00f3n",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":450,
+       "nombre":"Refract\u00f3metros",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":451,
+       "nombre":"Angi\u00f3grafo retinal",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":452,
+       "nombre":"Equipo de ojo seco",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":453,
+       "nombre":"Esc\u00e1ner ultras\u00f3nico",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":454,
+       "nombre":"Sill\u00f3n oftalmol\u00f3gico",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":455,
+       "nombre":"Cabinas silentes",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":456,
+       "nombre":"Analizador de aud\u00edfonos",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":457,
+       "nombre":"Laring\u00f3fono",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":458,
+       "nombre":"Ortopedia",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":459,
+       "nombre":"Reconocimiento de voz",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":460,
+       "nombre":"Cabina sanitizante",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":461,
+       "nombre":"Colchonetas",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":462,
+       "nombre":"Campanas de extracci\u00f3n",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":463,
+       "nombre":"Freezers de laboratorio",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":464,
+       "nombre":"Incubadora de laboratorio",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":465,
+       "nombre":"Mezcladores",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":466,
+       "nombre":"Ba\u00f1os ultras\u00f3nicos",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":467,
+       "nombre":"Circuladores",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":468,
+       "nombre":"Chillers",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":469,
+       "nombre":"Evaporadores",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":470,
+       "nombre":"Bombas perist\u00e1lticas",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":471,
+       "nombre":"Termocicladores",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":472,
+       "nombre":"Flujo laminar",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":473,
+       "nombre":"Cromat\u00f3grafos",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":474,
+       "nombre":"Incinerador de ansas",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":475,
+       "nombre":"Lavadora desinfectora",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":476,
+       "nombre":"Horno mufla",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":477,
+       "nombre":"Estufa de vac\u00edo",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":478,
+       "nombre":"Calentador de bloque seco",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":479,
+       "nombre":"Analizadores de agua",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":480,
+       "nombre":"Anem\u00f3metros",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":481,
+       "nombre":"Conduct\u00edmetros",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":482,
+       "nombre":"pH\u00edmetros",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":483,
+       "nombre":"Term\u00f3metros de laboratorio",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":484,
+       "nombre":"Transiluminadores",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":485,
+       "nombre":"Scanner de fluorescencia",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":486,
+       "nombre":"L\u00e1mpara UV",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":487,
+       "nombre":"Quimiluminiscencia",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":488,
+       "nombre":"Crosslinkers",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":489,
+       "nombre":"Manipulador celular",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":490,
+       "nombre":"Lumin\u00f3metros para esterilizaci\u00f3n",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":491,
+       "nombre":"Indicadores biol\u00f3gicos",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":492,
+       "nombre":"Accesorios para ECG",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":493,
+       "nombre":"Accesorios para ventilaci\u00f3n",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":494,
+       "nombre":"Recipientes",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":495,
+       "nombre":"Cinta de per\u00edmetro cef\u00e1lico",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":496,
+       "nombre":"Goniometro",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":497,
+       "nombre":"Torniquete",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":498,
+       "nombre":"Fresa craneal Acra Cut",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":499,
+       "nombre":"Frasco de aspiraci\u00f3n",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":500,
+       "nombre":"Equipos para rehabilitaci\u00f3n",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":501,
+       "nombre":"Onda corta",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":502,
+       "nombre":"Cuna ortop\u00e9dica",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":503,
+       "nombre":"Cama para obesos",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":504,
+       "nombre":"Sistema de transferencia para quir\u00f3fanos",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":505,
+       "nombre":"Carro de laparoscop\u00eda",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":506,
+       "nombre":"Carro para ropa",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":507,
+       "nombre":"Mesas de instrumentaci\u00f3n",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":508,
+       "nombre":"Microscopio de c\u00e9lulas endoteliales",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":509,
+       "nombre":"Ec\u00f3grafo ocular",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":510,
+       "nombre":"Sill\u00f3n de cirug\u00eda",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":511,
+       "nombre":"Lector de Elisa",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":512,
+       "nombre":"Equipos de citometr\u00eda de flujo",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":513,
+       "nombre":"Microscopios para odontolog\u00eda",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":514,
+       "nombre":"Microscopios para neurocirug\u00eda",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":515,
+       "nombre":"Colposcopio estereosc\u00f3pico",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":516,
+       "nombre":"Dializadores",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":517,
+       "nombre":"Tubuladuras para filtraci\u00f3n",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":518,
+       "nombre":"Accesorios para di\u00e1lisis",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":519,
+       "nombre":"Bomba de infusi\u00f3n manual",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":520,
+       "nombre":"Llaves de tres v\u00edas",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":521,
+       "nombre":"Tubos de recolecci\u00f3n de muestras de sangre",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":522,
+       "nombre":"Bolsas para sangre",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":523,
+       "nombre":"Jeringas heparinizadas",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":524,
+       "nombre":"Equipo de electroporaci\u00f3n irreversible",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":525,
+       "nombre":"Instrumental para radiofrecuencia",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":526,
+       "nombre":"Instrumental para intervencionismo",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":527,
+       "nombre":"Medidor de glucemia",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":528,
+       "nombre":"Tiras reactivas para glucemia",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":529,
+       "nombre":"Islas para neonatolog\u00eda",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":530,
+       "nombre":"Instalaciones de gases medicinales",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":531,
+       "nombre":"Ox\u00edgeno l\u00edquido",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":532,
+       "nombre":"Implantes cocleares",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":533,
+       "nombre":"Instrumental para fonoaudiolog\u00eda",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":534,
+       "nombre":"Instrumental para Neurocirug\u00eda",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":535,
+       "nombre":"Sillas de examinacion",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":536,
+       "nombre":"Cama de tocoginecolog\u00eda",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":537,
+       "nombre":"Cama de bipedestaci\u00f3n",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":538,
+       "nombre":"Silla de bipedestaci\u00f3n",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":539,
+       "nombre":"Silla para extracciones",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":540,
+       "nombre":"Sillones hospitalarios",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":541,
+       "nombre":"Sistema de aislamiento de paciente",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":542,
+       "nombre":"Lavamanos hospitalarios",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":543,
+       "nombre":"Inmovilizadores paciente para radioterapia",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":544,
+       "nombre":"L\u00e1ser para radioterapia",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":545,
+       "nombre":"Sistema de terapia de RX",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":546,
+       "nombre":"Fantomas para radiolog\u00eda",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":547,
+       "nombre":"Fantomas para ecograf\u00eda",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":548,
+       "nombre":"Sistema de localizaci\u00f3n para radioterapia",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":549,
+       "nombre":"Termos de ox\u00edgeno l\u00edquido",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":550,
+       "nombre":"Agitador para extracci\u00f3n con balanza",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":551,
+       "nombre":"Prensa bolsas de plasma",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":552,
+       "nombre":"Aglutinoscopio",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":553,
+       "nombre":"Centr\u00edfugas refrigeradas",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":554,
+       "nombre":"Agitador de plaquetas",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":555,
+       "nombre":"C\u00e1mara de conservaci\u00f3n de plaquetas",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":556,
+       "nombre":"Descongelador de plasma",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":557,
+       "nombre":"Centr\u00edfuga para microhematocrito",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":558,
+       "nombre":"Centr\u00edfuga para tubos Eppendorf",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":559,
+       "nombre":"Equipo para marcadores card\u00edacos",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":560,
+       "nombre":"Guantes",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":561,
+       "nombre":"M\u00e1scaras para anestesia",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":562,
+       "nombre":"Regulador de flujo",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":563,
+       "nombre":"Mantas para quemaduras",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":564,
+       "nombre":"Transductores de presi\u00f3n",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":565,
+       "nombre":"Bolsa drenaje de orina",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":566,
+       "nombre":"Tubo endotraqueal",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":567,
+       "nombre":"Ropa descartable",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":568,
+       "nombre":"Sondas",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":569,
+       "nombre":"C\u00e1nulas",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":570,
+       "nombre":"Clipadora",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":571,
+       "nombre":"Generador de RX",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":572,
+       "nombre":"Equipamiento de laboratorio",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":573,
+       "nombre":"Heladeras para bolsas de sangre",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":574,
+       "nombre":"Camilla mortuoria",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":575,
+       "nombre":"Ambulancias",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":576,
+       "nombre":"Veh\u00edculos de traslado",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":577,
+       "nombre":"Seri\u00f3grafos",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":578,
+       "nombre":"Tornillos de fijaci\u00f3n",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":579,
+       "nombre":"Productos de ortopedia general",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":580,
+       "nombre":"Pedaleras",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":581,
+       "nombre":"Dispositivos para biopsia",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":582,
+       "nombre":"For\u00f3ptero",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":583,
+       "nombre":"Sistemas de identificaci\u00f3n de ant\u00edgenos",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":584,
+       "nombre":"Data loggers",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":585,
+       "nombre":"Turbid\u00edmetros",
+       "cod_categoria":9
+    },
+    {
+       "cod_equipo":586,
+       "nombre":"Friabil\u00f3metros",
+       "cod_categoria":10
+    },
+    {
+       "cod_equipo":587,
+       "nombre":"Dur\u00f3metros",
+       "cod_categoria":11
+    },
+    {
+       "cod_equipo":588,
+       "nombre":"Desintegradores",
+       "cod_categoria":12
+    },
+    {
+       "cod_equipo":589,
+       "nombre":"Molinillos",
+       "cod_categoria":1
+    },
+    {
+       "cod_equipo":590,
+       "nombre":"Horno infrarrojo",
+       "cod_categoria":2
+    },
+    {
+       "cod_equipo":591,
+       "nombre":"Balanzas de precisi\u00f3n",
+       "cod_categoria":3
+    },
+    {
+       "cod_equipo":592,
+       "nombre":"Analizadores de humedad",
+       "cod_categoria":4
+    },
+    {
+       "cod_equipo":593,
+       "nombre":"Mesadas antivibratorias",
+       "cod_categoria":5
+    },
+    {
+       "cod_equipo":594,
+       "nombre":"Muflas",
+       "cod_categoria":6
+    },
+    {
+       "cod_equipo":595,
+       "nombre":"Polar\u00edmetros",
+       "cod_categoria":7
+    },
+    {
+       "cod_equipo":596,
+       "nombre":"Area limpia modular",
+       "cod_categoria":8
+    },
+    {
+       "cod_equipo":597,
+       "nombre":"Cajas de paso",
+       "cod_categoria":9
+    }
+]

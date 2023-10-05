@@ -1,0 +1,50 @@
+[
+    {
+        "categoryID": 1,
+        "name":"Categoria 1"
+    },
+    {
+        "categoryID": 2,
+        "name":"Categoria 2"
+    },
+    {
+        "categoryID": 3,
+        "name":"Categoria 3"
+    },
+    {
+        "categoryID": 4,
+        "name":"Categoria 4"
+    },
+    {
+        "categoryID": 5,
+        "name":"Categoria 5"
+    },
+    {
+        "categoryID": 6,
+        "name":"Categoria 6"
+    },
+    {
+        "categoryID": 7,
+        "name":"Categoria 7"
+    },
+    {
+        "categoryID": 8,
+        "name":"Categoria 8"
+    },
+    {
+        "categoryID": 9,
+        "name":"Categoria 9"
+    },
+    {
+        "categoryID": 10,
+        "name":"Categoria 10"
+    },
+    {
+        "categoryID": 11,
+        "name":"Categoria 11"
+    },
+    {
+        "categoryID": 12,
+        "name":"Categoria 12"
+    }
+]
