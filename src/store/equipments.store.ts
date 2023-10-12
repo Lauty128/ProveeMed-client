@@ -5,16 +5,19 @@ import { create } from 'zustand';
 import { getAll } from '../services/equipments.service';
 
 //----> Models
-import { paginationInterface, equipmentInterface } from '../models/data.model';
+import { paginationInterface, equipmentInterface, equipmentFiltersInterface } from '../models/data.model';
 
 //----> Configurations
 interface providers extends paginationInterface {
     data: equipmentInterface[] | never[]
     isLoading: boolean
+    filters: equipmentFiltersInterface
 
     load: (page?:number) => void
+    newFilters: (filters:equipmentFiltersInterface) => void
 }
 
+//----> Initial state of the store
 const initialState = {
     page:0,
     limit:0,
@@ -23,16 +26,20 @@ const initialState = {
     hasNextPage:false,
     data:[],
 
+    filters:{
+        word:'',
+        category:-1
+    },
     isLoading:true
 }
 
 
 export const useEquipmentsStore = create<providers>((set,get) => ({
-    // Inicializar valores por defecto definidos anteriormente
+    // Initialize store with default settings
     ...initialState,
 
     load: async (page?: number) => {
-        const response = await getAll(page || 1);
+        const response = await getAll(page || 1, get().filters);
 
         if(response){
             set({
@@ -47,5 +54,13 @@ export const useEquipmentsStore = create<providers>((set,get) => ({
             })
         }
     },
+
+    newFilters(filters:equipmentFiltersInterface){
+        set({
+            ...get(),
+            filters
+         })
+         get().load(1)
+    }
 
 }));

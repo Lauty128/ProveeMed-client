@@ -28,6 +28,9 @@ export interface equipmentInterface{
 
 export interface fullEquipmentInterface{
     umdns: string
+    description: string
+    price: number
+    especifications: string
 }
 
 //------- Pagination
@@ -37,4 +40,10 @@ export interface paginationInterface{
     total: Number
     hasNextPage: Boolean
     hasPrevPage: Boolean
+}
+
+export interface equipmentFiltersInterface{
+    category: number
+    word: string
+    order?: string
 }

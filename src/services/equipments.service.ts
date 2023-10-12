@@ -1,5 +1,8 @@
 //----- Models
-import { equipmentInterface } from '../models/data.model'
+import { equipmentInterface, equipmentFiltersInterface } from '../models/data.model'
+
+//----- utils
+import { defineEquipmentsFilters } from '../utils/parameters.util'
 
 //----- Variables
 const URL =  import.meta.env.VITE_API_URL
@@ -13,10 +16,12 @@ interface responseInterface{
     data: equipmentInterface[]
 }
 
-export async function getAll(page = 1):Promise<responseInterface | null>{
+export async function getAll(page = 1, filters:equipmentFiltersInterface):Promise<responseInterface | null>{
+    const filtersString = defineEquipmentsFilters(filters);
+    
     try{
         const data:Promise<responseInterface> = 
-                await fetch(URL + `api/equipments?page=${page}`).then(res => res.json())
+                await fetch(URL + `api/equipments?page=${page}`+ filtersString).then(res => res.json())
     
         return await data;
     }
