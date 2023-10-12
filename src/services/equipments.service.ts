@@ -1,5 +1,5 @@
 //----- Models
-import { equipmentInterface, equipmentFiltersInterface } from '../models/data.model'
+import { equipmentInterface, filtersInterface } from '../models/data.model'
 
 //----- utils
 import { defineEquipmentsFilters } from '../utils/parameters.util'
@@ -16,7 +16,7 @@ interface responseInterface{
     data: equipmentInterface[]
 }
 
-export async function getAll(page = 1, filters:equipmentFiltersInterface):Promise<responseInterface | null>{
+export async function getAll(page = 1, filters:filtersInterface):Promise<responseInterface | null>{
     const filtersString = defineEquipmentsFilters(filters);
     
     try{

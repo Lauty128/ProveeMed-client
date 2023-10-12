@@ -42,7 +42,7 @@ export interface paginationInterface{
     hasPrevPage: Boolean
 }
 
-export interface equipmentFiltersInterface{
+export interface filtersInterface{
     category: number
     word: string
     order?: string

@@ -5,16 +5,16 @@ import { create } from 'zustand';
 import { getAll } from '../services/equipments.service';
 
 //----> Models
-import { paginationInterface, equipmentInterface, equipmentFiltersInterface } from '../models/data.model';
+import { paginationInterface, equipmentInterface, filtersInterface } from '../models/data.model';
 
 //----> Configurations
 interface providers extends paginationInterface {
     data: equipmentInterface[] | never[]
     isLoading: boolean
-    filters: equipmentFiltersInterface
+    filters: filtersInterface
 
     load: (page?:number) => void
-    newFilters: (filters:equipmentFiltersInterface) => void
+    newFilters: (filters:filtersInterface) => void
 }
 
 //----> Initial state of the store
@@ -55,7 +55,7 @@ export const useEquipmentsStore = create<providers>((set,get) => ({
         }
     },
 
-    newFilters(filters:equipmentFiltersInterface){
+    newFilters(filters:filtersInterface){
         set({
             ...get(),
             filters
