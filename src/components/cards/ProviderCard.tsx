@@ -5,7 +5,7 @@ import { BsBoxArrowInRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 
 //------ Models
-import { providerInterface } from "../../models/data.model";
+import { providerInterface } from "../../models/response.model";
 
 interface PropsInterface{
     provider: providerInterface   

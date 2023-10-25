@@ -1,8 +1,8 @@
 //------- Components
-import { Link } from "react-router-dom";
+    //import { Link } from "react-router-dom";
 
 //------- Models
-import { categoryInterface } from "../../models/data.model";
+import { categoryInterface } from "../../models/response.model";
 
 interface PropsInterface{
     category: categoryInterface
@@ -12,7 +12,7 @@ function CategoryCard(props:PropsInterface){
     const { category } = props;
 
     return <span className="CategoryCard">
-        <Link to={"/?category="+category.categoryID}>{ category.name }</Link>
+        <a href={"/dashboard/equipos?category="+category.categoryID}>{ category.name }</a>
     </span>
 }
 

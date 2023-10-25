@@ -8,10 +8,15 @@ function Menu(){
 
     return(
         <div className="Menu">
-            <img src={viteLogo} alt="logo fio" className="Menu__image" />
+            {/* <Link to={'/'}>
+                <img src={viteLogo} alt="logo fio" className="Menu__image" />
+            </Link> */}
+            <a href="/">
+                <img src={viteLogo} alt="logo fio" className="Menu__image" />
+            </a>
 
             <nav className="Menu__nav"> 
-                <Link className="Menu__a" to={'/'}>Equipos</Link>
+                <Link className="Menu__a" to={'/equipos'}>Equipos</Link>
                 <Link className="Menu__a" to={'/proveedores'}>Proveedores</Link>
             </nav>
         </div>

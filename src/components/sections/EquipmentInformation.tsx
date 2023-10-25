@@ -1,11 +1,9 @@
 //--------- Hooks
 import { useState, useEffect } from "react"
-
-//---- Dependencies
 import { useParams } from 'react-router-dom';
 
 //--------- Models
-import { equipmentInterface, providerInterface, paginationInterface } from "../../models/data.model"
+import { equipmentInterface, providerInterface, paginationInterface } from "../../models"
 
 //---- Components
 import ProviderCard from "../cards/ProviderCard";
@@ -13,6 +11,7 @@ import ProviderCard from "../cards/ProviderCard";
 //--------- Services
 import { getAllByEquipment } from "../../services/providers.service"
 import { getOne } from "../../services/equipments.service";
+
 
 interface providersByEquipment extends paginationInterface{
     data: providerInterface[]
@@ -29,12 +28,12 @@ function EquipmentInformation(){
     useEffect(()=>{
         (async()=>{
 
-            const equipment = await getOne(Number(id));
+            const equipment:any = await getOne(Number(id));
             
-            if(equipment){
+            if(!equipment.error_message){
                 setEquipment(equipment);
                 
-                const Providersdata = await getAllByEquipment(Number(id)) 
+                const Providersdata:any = await getAllByEquipment(Number(id)) 
                 setProviders(Providersdata)
             }
         })()

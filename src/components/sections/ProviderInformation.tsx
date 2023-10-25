@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 import { useParams } from 'react-router-dom';
 
 //--------- Models
-import { equipmentInterface, fullProviderInterface, paginationInterface } from "../../models/data.model"
+import { equipmentInterface, fullProviderInterface, paginationInterface } from "../../models"
 
 //---- Components
 import EquipmentCard from "../cards/EquipmentCard";
@@ -15,9 +15,20 @@ import CategoryCard from "../cards/CategoryCard";
 import { getOne } from "../../services/providers.service"
 import { getAllByProviders } from "../../services/equipments.service";
 
+//--------- Configurations
 interface equipmentsByProvider extends paginationInterface{
     data: equipmentInterface[]
 }
+
+// const initialProvider = {
+//     providerID: -1,
+//     name: "",
+//     web: "",
+//     mail: "",
+//     phone: "",
+//     address: "",
+//     categories: []
+// }
 
 function ProviderInformation(){
 
@@ -28,12 +39,12 @@ function ProviderInformation(){
 
     useEffect(()=>{
         (async()=>{
-            const provider = await getOne(Number(id));
+            const provider:any = await getOne(Number(id));
             
-            if(provider){
-                setProvider(provider);
+            if(!provider.error_message){
+                setProvider(provider as fullProviderInterface);
                 
-                const Equipmentsdata = await getAllByProviders(Number(id)) 
+                const Equipmentsdata:any = await getAllByProviders(Number(id)) 
                 setEquipments(Equipmentsdata)
             }
         })()
@@ -51,7 +62,7 @@ function ProviderInformation(){
                             <span><b>Telefono/s:</b> {provider.phone || 'Sin especificar'}</span>
                             <span><b>Sitio Web: </b>
                                 {provider.web
-                                ? <a href={provider.web}>{provider.web}</a>
+                                ? <a href={provider.web} target="__blank">{provider.web}</a>
                                 : 'No existe'}
                             </span>
                             <span><b>E-Mail:</b> {provider.mail}</span>                            

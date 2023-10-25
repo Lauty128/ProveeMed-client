@@ -1,5 +1,5 @@
 //--- Interface
-import { paginationInterface } from "../../models/data.model";
+import { paginationInterface } from "../../models";
 
 interface PropsInterface{
     changePage: any

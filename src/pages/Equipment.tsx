@@ -15,7 +15,7 @@ function Equipment(){
     
     return(
         <div className='Information'>
-            <Link to={'/'}>Volver</Link>
+            <Link to={'/equipos'}>Volver</Link>
             <EquipmentInformation />
         </div>
     )

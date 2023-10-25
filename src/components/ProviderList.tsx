@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 
 //----> Models
-import { providerInterface } from '../models/data.model';
+import { providerInterface } from '../models/response.model';
 
 //----> Store
 import { useProvidersStore } from '../store/providers.store';
@@ -13,35 +13,47 @@ import Pagination from './general/Pagination';
 
 
 function ProviderList(){
-    const isLoading = useProvidersStore((state)=>(state.isLoading))
-    const loadProviders = useProvidersStore((state) => state.load)
-    const providers = useProvidersStore((state)=>({
-        hasNextPage: state.hasNextPage,
-        hasPrevPage: state.hasPrevPage,
-        total: state.total,
-        page: state.page,
-        limit: state.limit,
-        data: state.data,
-    }))
+    //----------> Store
+        // Function for loading the equipments in the store
+        const loadProviders = useProvidersStore((state) => state.load)
 
+        // States of the store
+        const State = useProvidersStore((state)=>({
+            isLoading: state.isLoading,
+            error: state.error
+        }))
 
-    useEffect(()=>{
-        if(providers.data.length == 0 && providers.limit == 0){
-            loadProviders()
+        // Data of the store
+        const providers = useProvidersStore((state)=>({
+            hasNextPage: state.hasNextPage,
+            hasPrevPage: state.hasPrevPage,
+            total: state.total,
+            page: state.page,
+            limit: state.limit,
+            data: state.data,
+        }))
+
+    //----------> Hooks
+        useEffect(()=>{
+            // If the length of the data and the established limit are equal to zero the following function is executed 
+            if(providers.data.length == 0 && providers.limit == 0){
+                loadProviders(1)
+            }
+        },[])
+
+    //----------> Functions
+        function changePage(number:number){
+            // loadEquipments() is executed but with a specified page number
+            loadProviders(number)
         }
-    },[])
 
-    //----- Functions
-    function changePage(number:number){
-        loadProviders(number)
-    }
-
-    const listHeader = {
-        border:'none',
-        borderBottom:'1px solid rgb(66, 66, 66)',
-        borderRadius:'0px',
-        paddingBottom:'2px'
-    }
+    //----------> Styles
+        const listHeader = {
+            border:'none',
+            borderBottom:'1px solid rgb(66, 66, 66)',
+            borderRadius:'0px',
+            paddingBottom:'2px'
+        }
 
 
     return(
@@ -51,7 +63,7 @@ function ProviderList(){
                 <span style={{color:'rgb(66,66,66)', textTransform:'uppercase'}}>Nombre</span>
                 <span style={{color:'rgb(66,66,66)', textTransform:'uppercase'}}>Detalles</span>            
             </div>
-            { isLoading && <h3>Cargando...</h3> }
+            { State.isLoading && <h3>Cargando...</h3> }
             {
                 (providers.data.length > 0)
                 ? providers.data.map((provider:providerInterface)=>{
