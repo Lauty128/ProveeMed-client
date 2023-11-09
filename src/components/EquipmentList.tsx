@@ -10,6 +10,7 @@ import { useEquipmentsStore } from '../store/equipments.store';
 //----> Components
 import EquipmentCard from './cards/EquipmentCard';
 import Pagination from './general/Pagination';
+import { SqueletonCard } from './squeleton/Card';
 
 function EquipmentList(){
     //----------> Store
@@ -62,7 +63,10 @@ function EquipmentList(){
                 <span style={{color:'rgb(66,66,66)', textTransform:'uppercase'}}>Categoria</span>
                 <span style={{color:'rgb(66,66,66)', textTransform:'uppercase'}}>Detalles</span>
             </div>
-            { State.isLoading && <h3>Cargando...</h3> }
+            { State.isLoading && [1,2,3,4,5,6,7,8,9,10].map((index)=>{
+                    return <SqueletonCard key={`${index}`} />
+            }) }
+
             {
                 (equipments.data.length > 0)
                 && equipments.data.map((equipment:equipmentInterface)=>{

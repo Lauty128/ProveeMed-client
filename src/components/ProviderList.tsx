@@ -10,6 +10,7 @@ import { useProvidersStore } from '../store/providers.store';
 //----> Components
 import ProviderCard from './cards/ProviderCard';
 import Pagination from './general/Pagination';
+import { SqueletonCard } from './squeleton/Card';
 
 
 function ProviderList(){
@@ -63,7 +64,11 @@ function ProviderList(){
                 <span style={{color:'rgb(66,66,66)', textTransform:'uppercase'}}>Nombre</span>
                 <span style={{color:'rgb(66,66,66)', textTransform:'uppercase'}}>Detalles</span>            
             </div>
-            { State.isLoading && <h3>Cargando...</h3> }
+
+            { State.isLoading && [1,2,3,4,5,6,7,8,9,10].map((index)=>{
+                    return <SqueletonCard key={`${index}`} />
+            }) }
+            
             {
                 (providers.data.length > 0)
                 ? providers.data.map((provider:providerInterface)=>{

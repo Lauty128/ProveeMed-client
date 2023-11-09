@@ -22,9 +22,8 @@ function Equipment(){
     // This changes the global state of the equipment filters 
     const changeFilters = useEquipmentsStore((state)=> state.changeFilters);
     changeFilters(initialFilters)
-    // Thanks to this function, the state of the filters can be changed from the url, where the navigator is refreshed
+    // Thanks to this function, the state of the filters can be changed from the url, when the navigator is refreshed
 
-    
     // SECTION OF THE EQUIPMENTS LIST
     return(
         <div className='Divisor'>
