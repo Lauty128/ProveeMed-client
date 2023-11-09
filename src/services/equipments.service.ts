@@ -35,7 +35,7 @@ export async function getAll(page:number, filters:filtersInterface):Promise<resp
     const params = generateParams(filters, page);
     
     // Exucuting of the query
-    const data = await instance('api/equipments',{
+    const data = await instance('/equipments',{
         // Query type
         method:'GET',
         // Parameters 
@@ -66,7 +66,7 @@ export async function getAll(page:number, filters:filtersInterface):Promise<resp
 
 export async function getOne(id:number):Promise<equipmentInterface | errorResponseInterface>{
     // Exucuting of the query
-    const data = await instance('api/equipments/'+id ,{
+    const data = await instance('/equipments/'+id ,{
         // Query type
         method:'GET',
     })
@@ -79,7 +79,7 @@ export async function getOne(id:number):Promise<equipmentInterface | errorRespon
 
 export async function getAllByProviders(id:number):Promise<responseInterface | errorResponseInterface>{
     // Exucuting of the query
-    const data = await instance('api/providers/'+id+'/equipments' ,{
+    const data = await instance('/providers/'+id+'/equipments' ,{
         // Query type
         method:'GET',
     })
