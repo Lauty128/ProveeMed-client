@@ -12,7 +12,7 @@ function CategoryCard(props:PropsInterface){
     const { category } = props;
 
     return <span className="CategoryCard">
-        <a href={"/dashboard/equipos?category="+category.categoryID}>{ category.name }</a>
+        <a href={"/equipos?category="+category.categoryID}>{ category.name }</a>
     </span>
 }
 
