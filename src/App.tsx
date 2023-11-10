@@ -11,6 +11,9 @@ import Providers from './pages/Providers';
 import Provider from './pages/Provider';
 import Equipments from './pages/Equipments';
 import Equipment from './pages/Equipment';
+import Backups from './pages/Backups';
+import ErrorPage from './pages/ErrorPage';
+import DevelopmentPage from './pages/DevelopmentPage';
 
 
 function App() {
@@ -18,7 +21,7 @@ function App() {
   return (
     <>
     {/* LIST OF ROUTES */}
-    <BrowserRouter basename='/dashboard'>
+    <BrowserRouter>
       {/* MENU IS EXECUTED IN THE ALL ROUTES */}
       <Routes>
         <Route path='/' element={<Layout />}>
@@ -27,10 +30,14 @@ function App() {
           <Route path='/equipos/:id' element={<Equipment />} />
           <Route path='/proveedores' element={<Providers />}/>
           <Route path='/proveedores/:id' element={<Provider />}/>
+          <Route path='/backups' element={<Backups />} />
+          <Route path='/backups/subir' element={<DevelopmentPage />} />
+          <Route path='/manual' element={<DevelopmentPage />} />
         </Route>
         
+        <Route path='/*' element={<ErrorPage />}/>
+        
         {/* THIS ELEMENT IS RENDERED IN CASE OF THAT THE ROUTE WILL NOT EXIST */}
-        <Route path='/*' element={<h1>Esta ruta no existe</h1>}/>
       </Routes>
     </BrowserRouter>
       
