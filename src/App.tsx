@@ -12,9 +12,9 @@ import Provider from './pages/Provider';
 import Equipments from './pages/Equipments';
 import Equipment from './pages/Equipment';
 import Backups from './pages/Backups';
+import Manual from './pages/Manual';
 import ErrorPage from './pages/ErrorPage';
 import DevelopmentPage from './pages/DevelopmentPage';
-
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
           <Route path='/proveedores/:id' element={<Provider />}/>
           <Route path='/backups' element={<Backups />} />
           <Route path='/backups/subir' element={<DevelopmentPage />} />
-          <Route path='/manual' element={<DevelopmentPage />} />
+          <Route path='/manual' element={<Manual />} />
         </Route>
         
         <Route path='/*' element={<ErrorPage />}/>

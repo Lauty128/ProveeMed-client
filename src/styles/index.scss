@@ -369,3 +369,26 @@ p,span,a{
         color: #8c8b8b;
     }
 }
+
+.Manual{
+    max-width: 1000px;
+    margin: 1.5em auto 2em auto;
+    padding: 0 .5em;
+
+    & h1, & h2, & h3, & h4, & h5{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    & p{
+        font-size: 1.15em;
+        color: #4b4b4b;
+        margin: 8px 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    & blockquote{
+        background-color: #ededed;
+        padding: .5em 1em;
+        margin-left: 0;
+    }
+}
