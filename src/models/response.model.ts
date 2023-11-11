@@ -33,6 +33,12 @@ export interface fullEquipmentInterface{
     specifications: string
 }
 
+//------- Backups
+export interface backupsResponse{
+    main: string
+    files: string[]
+}
+
 //------- Error
 export interface errorResponseInterface{
     http_code: number

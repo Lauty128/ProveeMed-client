@@ -2,6 +2,9 @@
 import axios from 'axios';
 import { toast  } from 'react-toastify';
 
+//-----> Interfaces
+import { backupsResponse } from '../models';
+
 //-----> Utils
 import { downloadFile } from '../utils/download.util';
 
@@ -42,11 +45,11 @@ export async function download(date?:string):Promise<void>{
     })
 }
 
-export async function submitOldBackup(date:string):Promise<void>{
-    instance('/backups/update/file/'+date)
-        .then(response => {
+export async function submitOldBackup(date:string):Promise<boolean>{
+    const response = instance('/backups/update/file/'+date)
+        .then(() => {
             toast.success('Base de datos actualizada correctamente');
-            console.log(response);
+            return true
         })
         .catch(err => {
             if(err.response.status === 401){
@@ -55,10 +58,30 @@ export async function submitOldBackup(date:string):Promise<void>{
             else{
                 toast.error('Ocurrio un error durante la carga del backup');
             }
+            return false;
         })
+    return response;
 }
 
-export async function getAll():Promise<string[]>{
+export async function deleteBackup(date:string):Promise<boolean>{
+    const response = instance('/backups/delete/'+date)
+        .then(response => {
+            toast.info(response.data.message);
+            return true;
+        })
+        .catch(err => {
+            if(err.response.status === 401){
+                toast.error('No estas authorizado para acceder a este contenido');
+            }
+            else{
+                toast.error('Ocurrio un error durante la eliminación del backup');
+            }
+            return false;
+        })
+    return response;
+}
+
+export async function getAll():Promise<backupsResponse>{
     // Exucuting of the query
     const response = await instance('/backups') 
     .then((response) => response.data)

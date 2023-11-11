@@ -4,13 +4,16 @@ import { useState, useEffect } from "react";
 //-------> Components
 import { Link } from "react-router-dom";
 
+//-------> Interfaces
+import { backupsResponse } from "../models";
+
 //-------> Services
-import { download, getAll, submitOldBackup } from "../services/backups.service"
+import { download, getAll, submitOldBackup, deleteBackup } from "../services/backups.service"
 
 
 export default function Backups(){
     //----> States
-    const [backups, setBackups] = useState<null | string[]>(null);
+    const [backups, setBackups] = useState<null | backupsResponse>(null);
     
     useEffect(() =>{
         (async()=>{
@@ -22,10 +25,26 @@ export default function Backups(){
     },[]);
 
     //----> Functions
-    function loadOldBackup(name:string){
+    async function loadOldBackup(name:string){
         const response = window.confirm("Estas seguro de cargar este backup. \nRecuerda que los datos actuales seran reemplazados por los datos del backup");
         if(response){
-            submitOldBackup(name);
+            const updatedResponse = await submitOldBackup(name);
+
+            if(updatedResponse){
+                const newData = await getAll();
+                setBackups(newData);
+            }
+        }
+    }
+
+    async function deleteHandler(name:string){
+        const response = window.confirm("Estas seguro de eliminar este backup. \nRecuerda que los datos actuales seran reemplazados por los datos del backup");
+        if(response){
+            const deletedResponse = await deleteBackup(name);
+            if(deletedResponse){
+                const newData = await getAll();
+                setBackups(newData);
+            }
         }
     }
 
@@ -73,30 +92,45 @@ export default function Backups(){
                     {
                         backups == null
                         ? 'No hay backups viejos'
-                        : backups.map((backup,index)=>{
+                        : backups.files.map((backup,index)=>{
                             const name = backup.split('__')[0]
                             return <div key={`${index}`} className="BackupsTable__row">
-                                <span>{name}</span>
+                                <span>
+                                    {
+                                        (name == backups.main)
+                                        ? '* '
+                                        : ''
+                                    }
+                                    {name}
+                                </span>
                                 <div className="BackupsTable__actions">
                                     <span className="BackupsTable__action"
                                     title="Descargar archivo xlsx para visualizar los datos" 
                                     onClick={()=> download(name)} >
                                         Descargar
                                     </span>
-                                    <span className="BackupsTable__action"
-                                    title="Cargar datos de este backup en la base de datos" 
-                                    onClick={()=> loadOldBackup(name)} >
-                                        Cargar
-                                    </span>
-                                    <span className="BackupsTable__action"
-                                    title="Eliminar este backup para limpiar servidor">
-                                        Eliminar
-                                    </span>
+                                    {
+                                        (name == backups.main)
+                                        ? ''
+                                        : <>
+                                            <span className="BackupsTable__action"
+                                            title="Cargar datos de este backup en la base de datos" 
+                                            onClick={()=> loadOldBackup(name)} >
+                                                Cargar
+                                            </span>
+                                            <span className="BackupsTable__action"
+                                            title="Eliminar este backup para limpiar servidor"
+                                            onClick={()=> deleteHandler(name)} >
+                                                Eliminar
+                                            </span>
+                                        </> 
+                                    }
                                 </div>
                             </div>
                         })
                     }
                 </div>
+                <span>* Indica que ese backup es el activo actualmente</span>
             </div>
 
         </div>

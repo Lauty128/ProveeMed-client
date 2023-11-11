@@ -335,6 +335,7 @@ p,span,a{
 
     &__table{
         margin-top: 1em;
+        margin-bottom: 10px;
         max-width: 800px;
         overflow-y: auto;
     }
@@ -367,6 +368,64 @@ p,span,a{
     }
     &__action:hover{
         color: #8c8b8b;
+    }
+}
+
+.SubmitBackup{
+    margin-top: 3em;
+
+    &__div{
+        border: #585858 dotted;
+        padding: 2em 1em;
+        margin: auto;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .5em;
+        background-color: #e8e8e8;
+    }
+
+    &__div--select{
+        border: #044c84 dotted 4px;
+
+    }
+
+    &__submit{
+        width: fit-content;
+        text-align: center;
+        padding: .5em 1em;
+        background-color: #044c84;
+        outline: none;
+        border: none;
+        color: #FFFF;
+        border-radius: 5px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 2em;
+        cursor: pointer;
+    }
+    
+    &__input--select{ position: relative; width: 140px }
+
+    &__input--select::before{
+        background-color: #486498;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        content: 'Cambiar archivo'; 
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    &__span{
+        color: #1b1b1b;
     }
 }
 
