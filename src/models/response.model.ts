@@ -24,6 +24,10 @@ export interface equipmentInterface{
     name: string
     categoryID: Number
     category?: string
+    umdns: string
+    description: string
+    price: number | null
+    specification: string | null
 }
 
 export interface fullEquipmentInterface{

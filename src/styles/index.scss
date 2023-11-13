@@ -288,6 +288,11 @@ p,span,a{
         font-size: 1.3em;
     }
 
+    &__p{
+        color: #404040;
+        font-size: 1.1em;
+    }
+
     &__categories{
         display: flex;
         flex-wrap: wrap;
