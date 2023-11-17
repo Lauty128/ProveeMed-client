@@ -16,8 +16,7 @@ export default function SubmitBackup(){
     
     //----> Functions
     function fileHandler(e:ChangeEvent<HTMLInputElement>){
-        if(e.target.files){
-            console.log(e.target.files[0])
+        if(e.target.files && e.target.files[0]){
             setFile(e.target.files[0])
             if(!select){
                 setSelect(true)
@@ -29,9 +28,11 @@ export default function SubmitBackup(){
         e.preventDefault()
         const formData = new FormData();
         formData.append('file', file as File);
-        
+
         submitTemplateFile(formData);
         // Finalizar subida de datos
+        (document.getElementById('SubmitFile-form') as HTMLFormElement).reset()
+
         setFile(null)
         setSelect(false)
     }
@@ -55,7 +56,7 @@ export default function SubmitBackup(){
                 mencionadas en el <Link to={'/manual'}>manual</Link>{' '}
             </p>
 
-            <form action="/proyecto-fio/api/backups/update" method="post" encType="multipart/form-data" className="SubmitBackup" onSubmit={(e)=> submitFile(e)}>
+            <form action="/proyecto-fio/api/backups/update" id="SubmitFile-form" className="SubmitBackup" onSubmit={(e)=> submitFile(e)}>
                 <div className={`SubmitBackup__div ${(select) ? ' SubmitBackup__div--select' : ''}`}>
                     {
                         (file !== null)
