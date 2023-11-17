@@ -20,6 +20,21 @@ import { downloadFile } from '../utils/download.util';
         }
     })
 
+export async function submitTemplateFile(form:FormData):Promise<void>{
+    await instance.post('/backups/update',form)
+    .then(() => {
+        toast.success('Base de datos actualizada correctamente');
+    })
+    .catch(err => {
+        if(err.response.status === 401){
+            toast.error('No estas authorizado para acceder a este contenido');
+        }
+        else{
+            toast.error('Ocurrio un error durante la carga del backup');
+        }
+    })
+}
+
 export async function download(date?:string):Promise<void>{
     
     const url =  (date !== undefined)

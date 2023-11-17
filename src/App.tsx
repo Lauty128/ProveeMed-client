@@ -13,8 +13,9 @@ import Equipments from './pages/Equipments';
 import Equipment from './pages/Equipment';
 import Backups from './pages/Backups';
 import Manual from './pages/Manual';
+import SubmitBackup from './pages/SubmitBackup';
 import ErrorPage from './pages/ErrorPage';
-import DevelopmentPage from './pages/DevelopmentPage';
+//import DevelopmentPage from './pages/DevelopmentPage';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
           <Route path='/proveedores' element={<Providers />}/>
           <Route path='/proveedores/:id' element={<Provider />}/>
           <Route path='/backups' element={<Backups />} />
-          <Route path='/backups/subir' element={<DevelopmentPage />} />
+          <Route path='/backups/subir' element={<SubmitBackup />} />
           <Route path='/manual' element={<Manual />} />
         </Route>
         
