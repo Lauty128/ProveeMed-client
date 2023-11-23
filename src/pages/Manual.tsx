@@ -1,8 +1,11 @@
+//----> Dependencies
+import Markdown from "react-markdown";
+
 //----> Assets
 import equipmentsExample from '../assets/manual/equipments_example.png';
 
-//----> Dependencies
-import Markdown from "react-markdown";
+//----> Componentes
+import { Link } from "react-router-dom";
 
 
 export default function Manual(){
@@ -62,10 +65,16 @@ En esta imagen hacemos referencia a algunas conexiones de ID desde la tabla de P
 
 ¡Y Listo! Ahora puedes aprovechar al máximo ProveeMed, respaldando tus datos con facilidad y manteniendo toda tu información actualizada. ¡Optimiza tu experiencia con ProveeMed de manera simple y eficiente!
     `
-    
+    //----> Styles
+    const goBackButtonStyles = {
+        textDecoration: 'none',
+        color: '#044c84',
+        fontSize: 18
+    }
     
     return <>   
         <div className="Manual">
+            <Link to={'/backups'} style={goBackButtonStyles}>⬅ Volver</Link>
             <Markdown>
                 { manualData }
             </Markdown>
