@@ -1,6 +1,5 @@
 //----> Hooks
 import { create } from 'zustand';
-import "react-toastify/dist/ReactToastify.css";
 
 //----> Services
 import { getAll } from '../services/equipments.service';

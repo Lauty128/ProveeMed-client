@@ -1,13 +1,15 @@
 //---- Hooks
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useProvidersStore } from '../store/providers.store';
-
-//---- Data
-import Categories from '../data/Categories.json'
+import { useCategoriesStore } from '../store/categories.store';
 
 //---- Models
 import { filtersInterface, categoryInterface } from '../models';
+
+//---- Data
+//import Categories from '../data/Categories.json'
+
 
 
 // This object is used for restarting the filters
@@ -19,14 +21,20 @@ const initialFilters = {
 function ProviderFilters() {
     //----- Hook
     const { newFilters, filters } = useProvidersStore();
+    const Categories = useCategoriesStore((state)=>state.data);
+    const LoadCategories = useCategoriesStore((state)=>state.load);
     const [localFilters, setLocalFilters] = useState<filtersInterface>(filters)
     const [params, setParams] = useSearchParams()
+    
 
     //-----------> This is used if the default value of the localFilters state is initialFilters
-    // useEffect(()=>{
-    //     // The values of the global state filters takes the value of localFilters
-    //     setLocalFilters(filters)
-    // },[])
+    useEffect(()=>{
+        if(Categories == null){
+            LoadCategories()
+        }
+         // The values of the global state filters takes the value of localFilters
+         //setLocalFilters(filters)
+    },[])
 
     //-----> Functions
     // This restarts the local filters and the global state filters
@@ -82,11 +90,13 @@ function ProviderFilters() {
                 <select name="category" id="category-input" className='Filter__input' onChange={(e)=> changeFilters(e.target)} >
                     <option value="-1">Todas</option>
                     {
-                    Categories.map((category:categoryInterface)=>{
+                    Categories 
+                    ? Categories.map((category:categoryInterface)=>{
                         return (localFilters.category == category.categoryID)
                         ? <option selected value={`${category.categoryID}`} key={`${category.categoryID}`}>{category.name  }</option>
                         : <option value={`${category.categoryID}`} key={`${category.categoryID}`}>{category.name  }</option>
                     })
+                    : ''
                     }
                 </select>
             </div>

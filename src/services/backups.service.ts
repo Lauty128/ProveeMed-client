@@ -32,6 +32,7 @@ export async function submitTemplateFile(form:FormData):Promise<void>{
         else{
             toast.error('Ocurrio un error durante la carga del backup');
         }
+        console.log(err);
     })
 }
 
